@@ -1,0 +1,5 @@
+VAR
+	BlockingValveUnlatch : BOOL;
+	ZeroCropUnlatch : BOOL;
+	ZeroCropSignal : BOOL;
+END_VAR

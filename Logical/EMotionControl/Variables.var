@@ -1,0 +1,8 @@
+VAR
+	AbsoluteDifference : DINT;
+	Counter1 : INT;
+	DACBalance1 : INT;
+	difference : DINT;
+	Hold1 : INT;
+	Ratio1 : INT;
+END_VAR

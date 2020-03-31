@@ -1,0 +1,31 @@
+Connection "/IF=tcpip /LOPO=11159 /SA=1", "/RT=1000 /AM=* /SDT=5 /DAIP=10.1.254.101 /REPO=11159 /ANSL=1 /PT=11169"
+Diagnose
+DeleteMemory ROM
+Coldstart
+Download: ".\System\X20CP1584J42.BR", "ROM"
+Coldstart
+Download: ".\asfw.br", "SYSROM"
+Download: ".\ashwd.br", "SYSROM"
+Download: ".\arconfig.br", "SYSROM"
+Download: ".\sysconf.br", "SYSROM"
+Warmstart
+Download: ".\Role.br", "ROM"
+Download: ".\User.br", "ROM"
+Download: ".\iomap.br", "ROM"
+Download: ".\TCData.br", "SYSROM"
+Download: ".\standard.br", "ROM"
+Download: ".\runtime.br", "ROM"
+Download: ".\asstring.br", "ROM"
+Download: ".\astime.br", "ROM"
+Download: ".\asieccon.br", "ROM"
+Download: ".\astcp.br", "ROM"
+Download: ".\CEF.br", "ROM"
+Download: ".\IMotion2.br", "ROM"
+Download: ".\EFdrHydDrv.br", "ROM"
+Download: ".\SysCheck.br", "ROM"
+Download: ".\E2Feeder.br", "ROM"
+Download: ".\PMaster.br", "ROM"
+Download: ".\Pinspotter.br", "ROM"
+Download: ".\E_FWB.br", "ROM"
+Download: ".\DH800.br", "ROM"
+Download: ".\Server.br", "ROM"

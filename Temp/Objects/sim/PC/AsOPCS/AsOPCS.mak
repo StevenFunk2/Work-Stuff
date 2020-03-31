@@ -1,0 +1,33 @@
+$(AS_CPU_PATH)/AsOPCS.opcs: \
+	$(AS_PROJECT_PATH)/Logical/OpcTag.opct \
+	$(AS_PROJECT_PATH)/Logical/OpcTag.opct \
+	$(AS_PROJECT_PATH)/Logical/Global.var \
+	$(AS_PROJECT_PATH)/Logical/Libraries/operator/operator.var \
+	$(AS_PROJECT_PATH)/Logical/Libraries/runtime/runtime.var \
+	$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.var \
+	$(AS_PROJECT_PATH)/Logical/Libraries/AsIecCon/AsIecCon.var \
+	$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.var \
+	$(AS_PROJECT_PATH)/Logical/Libraries/MestekLib/Constants.var \
+	$(AS_PROJECT_PATH)/Logical/Libraries/AsTCP/AsTCP.var \
+	$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.var \
+	$(AS_PROJECT_PATH)/Logical/LibAsTCP1_ST/Library/Constants.var \
+	$(AS_PROJECT_PATH)/Logical/LibAsTCP1_ST/LibAsTCP1_ST.var \
+	$(AS_PROJECT_PATH)/Logical/LibAsTCP1_ST/Server/Server.var \
+	$(AS_PROJECT_PATH)/Logical/MotionControl1/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/Feeder/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/MarkTable/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/MarkRF/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/TDCTable/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/TDCRFPshrs/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/Insulmatic/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/GlueApp/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/Pinspotter/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/BrakeCommon/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/HWBwPLC/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/HWBwoPLC/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/HydraulicBrakeCarriage/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/CleatRoll/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/HMIButtons/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/LampTest/Variables.var \
+	$(AS_PROJECT_PATH)/Logical/LibAsTCP1_ST/Client/Client.var
+	@"$(AS_BIN_PATH)/BR.OPC.Builder.exe"  "$(AS_PROJECT_PATH)/Logical/OpcTag.opct" -o "$(AS_CPU_PATH)/AsOPCS.opcs" -c sim -T Win -g "$(AS_TEMP_PATH)/Objects/Declarations.lst" -m "$(AS_CPU_PATH)/ConfigInfo.cfi" -P "$(AS_PROJECT_PATH)" -C "/RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1" -D "/IF=tcpip /LOPO=11159 /SA=1" -p "@/Pvi/LNINA2/$(AS_CONFIGURATION)/$(AS_PLC)/CPU"

@@ -1,0 +1,12 @@
+VAR
+	TDCPusherUnlatch : BOOL;
+	TDCRFStartPush : BOOL;
+	TDCRFP1 : BOOL;
+	TDCRFP3 : BOOL;
+	TDCPushDelayDone : BOOL;
+	TDCRFP2 : BOOL;
+	TDCRFP4 : BOOL;
+	TDCRFP5 : BOOL;
+	TDCRFPTime : TIME;
+	TON_0 : TON;
+END_VAR

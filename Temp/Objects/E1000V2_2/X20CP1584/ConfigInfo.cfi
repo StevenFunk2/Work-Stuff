@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.14.119 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="CEF"
+      Disable="false"
+      Source="CEF"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\CEF\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\CEF\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\CEF\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\CEF\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\CEF\Variables.var" />
+    </Task>
+    <Task
+      Name="IMotion2"
+      Disable="false"
+      Source="IMotion2"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\IMotion2\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\IMotion2\Init.st.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\IMotion2\Exit.st.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\IMotion2\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\IMotion2\Variables.var" />
+    </Task>
+    <Task
+      Name="EFdrHydDrv"
+      Disable="false"
+      Source="EFdrHydDrv1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\EFdrHydDrv\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\EFdrHydDrv\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\EFdrHydDrv\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\EFdrHydDrv1\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\EFdrHydDrv1\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="SysCheck"
+      Disable="false"
+      Source="SysCheck"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\SysCheck\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\SysCheck\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\SysCheck\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\SysCheck\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\SysCheck\Variables.var" />
+    </Task>
+    <Task
+      Name="E2Feeder"
+      Disable="false"
+      Source="E2Feeder"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\E2Feeder\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\E2Feeder\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\E2Feeder\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\E2Feeder\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\E2Feeder\Variables.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\E2Feeder\Action.st.var" />
+    </Task>
+    <Task
+      Name="PMaster"
+      Disable="false"
+      Source="PMaster"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\PMaster\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\PMaster\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\PMaster\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\PMaster\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\PMaster\Variables.var" />
+    </Task>
+    <Task
+      Name="Pinspotter"
+      Disable="false"
+      Source="Pinspotter"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\Pinspotter\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\Pinspotter\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\Pinspotter\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\Pinspotter\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\Pinspotter\Variables.var" />
+    </Task>
+    <Task
+      Name="E_FWB"
+      Disable="false"
+      Source="E_FWB"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\E_FWB\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\E_FWB\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\E_FWB\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\E_FWB\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\E_FWB\Variables.var" />
+    </Task>
+    <Task
+      Name="DH800"
+      Disable="false"
+      Source="DH800"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\DH800\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\DH800\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\DH800\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\DH800\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\DH800\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="Server"
+      Disable="false"
+      Source="LibAsTCP1_ST.Server"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\E1000V2_2\X20CP1584\Server\Server.st.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Server\Server.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Server\Server.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

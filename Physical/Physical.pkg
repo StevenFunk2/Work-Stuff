@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.14.119 SP?>
+<Physical xmlns="http://br-automation.co.at/AS/Physical">
+  <Objects>
+    <Object Type="Configuration" Description="Remote I/O">DUCTO2_RIO</Object>
+    <Object Type="Configuration" Description="Superior(Modified since), Pyramid Release">DUCTO2_V02</Object>
+    <Object Type="Configuration" Description="Superior CD-2059-00, MGM CD-2221-00 and Blackstone CD-1863-00 Releases, McDaniel">Southwark_CD2505_00</Object>
+    <Object Type="Configuration" Description="Superior CD-2059-00, MGM CD-2221-00 and Blackstone CD-1863-00 Releases, McDaniel, standard Ducto2  projectl">DUCTO2_V1</Object>
+    <Object Type="Configuration">sim</Object>
+    <Object Type="Configuration" Description="Twin City Release 1/29/19">E2000</Object>
+    <Object Type="Configuration" Description="Martin Peterson - Feeder was uncontrollable. EFdrHydDrv has timers, etc to deal with it.">E1000V2_1</Object>
+    <Object Type="Configuration" Description="Holaday Parks release - EFeeder hopefully reconstuted from backup.">E1000</Object>
+    <Object Type="Configuration" Description="Standard E1000 AS Of 4/1/19, Louisiana CSI, Apollo, VM Systems, Mason Road">E1000V2_2</Object>
+  </Objects>
+</Physical>

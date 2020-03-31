@@ -1,0 +1,176 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Server 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=109 Type=0 Scope=0 Force=0 Index=24 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                  Server                               Server_typ    0 "                                                               *"    0   24    1    0    1    1         
+                                   sStep                                     UINT    0 "                                                              10"    1    6    1   10    0    0         
+                          client_address                               STRING[20]    0 "                                                     '127.0.0.1'"    1    9   21    1    0    0         
+                               TcpOpen_0                                  TcpOpen    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                 pIfAddr                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                    port                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                 options                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                 i_state                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                i_result                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                   i_tmp                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                             TcpServer_0                                TcpServer    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                 backlog                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                 pIpAddr                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                               identclnt                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                portclnt                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                 i_state                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                i_result                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                   i_tmp                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                               TcpRecv_0                                  TcpRecv    0 "                                                               *"    1   24    1    0    0    1         
+                                  enable                                     BOOL    0 "                                                            TRUE"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               2"    2    7    1   10    0    0         
+                                   pData                                    UDINT    0 "                                                       149037932"    2    7    1   10    0    0         
+                                 datamax                                    UDINT    0 "                                                            4097"    2    7    1   10    0    0         
+                                   flags                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                 recvlen                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                                 i_state                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                i_result                                     UINT    0 "                                                               0"    2    6    1   10    0    0         
+                                   i_tmp                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                               TcpSend_0                                  TcpSend    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   pData                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                 datalen                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   flags                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                 sentlen                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                 i_state                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                i_result                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                   i_tmp                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                              TcpClose_0                                 TcpClose    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                     how                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                 i_state                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                i_result                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                   i_tmp                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                              TcpIoctl_0                                 TcpIoctl    0 "                                                               *"    1   24    1    0    0    0         
+                                  enable                                     BOOL    0 "                                                               *"    2    1    1    2    0    0         
+                                   ident                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   ioctl                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                   pData                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                 datalen                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                  status                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                  outlen                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                 i_state                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                i_result                                     UINT    0 "                                                               *"    2    6    1   10    0    0         
+                                   i_tmp                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                             data_buffer                            BYTE[0..4096]    0 "                                                               *"    1   17 4097    0    0    0        b
+                          data_buffer[0]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          data_buffer[1]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          data_buffer[2]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          data_buffer[3]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          data_buffer[4]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          data_buffer[5]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          data_buffer[6]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          data_buffer[7]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          data_buffer[8]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          data_buffer[9]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[10]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[11]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[12]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[13]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[14]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[15]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[16]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[17]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[18]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[19]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[20]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[21]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[22]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[23]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[24]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[25]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[26]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[27]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[28]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[29]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[30]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[31]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[32]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[33]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[34]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[35]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[36]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[37]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[38]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[39]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[40]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[41]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[42]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[43]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[44]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[45]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[46]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[47]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[48]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[49]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[50]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[51]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[52]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[53]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[54]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[55]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[56]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[57]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[58]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[59]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[60]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[61]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[62]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[63]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[64]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[65]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[66]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[67]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[68]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[69]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[70]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[71]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[72]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[73]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[74]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[75]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[76]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[77]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[78]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[79]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[80]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[81]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[82]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[83]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[84]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[85]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[86]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[87]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[88]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[89]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[90]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[91]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[92]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[93]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[94]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[95]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[96]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[97]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[98]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                         data_buffer[99]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                        data_buffer[100]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                              linger_opt                            tcpLINGER_typ    0 "                                                               *"    1   24    1    0    0    0         
+                                  lOnOff                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                                 lLinger                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                            recv_timeout                                    UDINT    0 "                                                               0"    1    7    1   10    0    0         
+                          ZeroCropButton                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                             ZeroCropCut                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         

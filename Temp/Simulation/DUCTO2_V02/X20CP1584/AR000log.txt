@@ -1,0 +1,26 @@
+
+
+Fri Dec 14 07:00:54 2018
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Fri Dec 14 07:00:54 2018
+COMMAND_COLDSTART
+InstanceName : 01d493ad0c6dba50
+
+WorkingPath :
+C:\Code\BandR Duct Line Project\Temp\Simulation\DUCTO2_V02\X20CP1584\
+
+
+
+Fri Dec 14 07:00:54 2018
+COMMAND_COLDSTART
+
+
+Fri Dec 14 09:25:31 2018
+COMMAND_TERMINATE
+
+
+Fri Dec 14 09:25:31 2018

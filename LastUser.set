@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.14.119 SP"?>
+<ProjectSettings xmlns="http://br-automation.co.at/AS/ProjectSettings">
+  <ConfigurationManager ActiveConfigurationName="DUCTO2_V1" Batch_0="DUCTO2_RIO" Batch_1="DUCTO2_V02" Batch_2="Southwark_CD2505_00" Batch_3="DUCTO2_V1" Batch_4="sim" />
+  <Deployment Value="ActiveCpu" />
+  <ExportProject ExportFilePath="C:\Code\BandR Duct Line Project\X20_CPU_ServoBrake.zip" />
+  <Print Footer="%cPage: %p" Header="%lProject: %n%c%x" />
+</ProjectSettings>

@@ -1,0 +1,212 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Client 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=3 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                  Client                               Client_typ    0 "                                                               *"    0   24    1    0    1    1         
+                                   sStep                                     UINT    0 "                                                             100"    1    6    1   10    0    0         
+                               TcpSend_0                                  TcpSend    0 "                                                               *"    1   24    1    0    0    1         
+                                 datalen                                    UDINT    0 "                                                               0"    2    7    1   10    0    0         
+                            LibAsTCP1_ST                         LibAsTCP1_ST_typ    0 "                                                               *"    0   24    1    0    0    1         
+                            receive_data                            UDINT[0..100]    0 "                                                               *"    1    7  101    0    0    0         
+                         receive_data[0]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         receive_data[1]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         receive_data[2]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         receive_data[3]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         receive_data[4]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         receive_data[5]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         receive_data[6]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         receive_data[7]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         receive_data[8]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                         receive_data[9]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[10]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[11]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[12]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[13]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[14]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[15]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[16]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[17]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[18]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[19]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[20]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[21]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[22]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[23]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[24]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[25]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[26]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[27]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[28]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[29]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[30]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[31]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[32]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[33]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[34]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[35]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[36]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[37]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[38]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[39]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[40]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[41]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[42]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[43]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[44]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[45]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[46]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[47]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[48]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[49]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[50]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[51]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[52]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[53]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[54]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[55]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[56]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[57]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[58]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[59]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[60]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[61]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[62]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[63]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[64]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[65]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[66]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[67]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[68]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[69]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[70]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[71]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[72]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[73]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[74]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[75]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[76]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[77]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[78]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[79]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[80]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[81]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[82]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[83]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[84]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[85]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[86]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[87]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[88]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[89]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[90]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[91]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[92]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[93]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[94]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[95]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[96]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[97]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[98]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                        receive_data[99]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                       receive_data[100]                                    UDINT    0 "                                                               *"    2    7    1   10    0    0         
+                               send_data                             BYTE[0..100]    0 "                                                               *"    1   17  101    0    0    1        b
+                            send_data[0]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                            send_data[1]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                            send_data[2]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                            send_data[3]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                            send_data[4]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                            send_data[5]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                            send_data[6]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                            send_data[7]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                            send_data[8]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                            send_data[9]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[10]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[11]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[12]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[13]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[14]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[15]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[16]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[17]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[18]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[19]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[20]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[21]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[22]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[23]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[24]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[25]                                     BYTE    0 "                                                               0"    2   17    1   10    0    0        b
+                           send_data[26]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[27]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[28]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[29]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[30]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[31]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[32]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[33]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[34]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[35]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[36]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[37]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[38]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[39]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[40]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[41]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[42]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[43]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[44]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[45]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[46]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[47]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[48]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[49]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[50]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[51]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[52]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[53]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[54]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[55]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[56]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[57]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[58]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[59]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[60]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[61]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[62]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[63]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[64]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[65]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[66]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[67]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[68]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[69]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[70]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[71]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[72]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[73]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[74]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[75]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[76]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[77]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[78]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[79]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[80]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[81]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[82]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[83]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[84]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[85]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[86]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[87]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[88]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[89]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[90]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[91]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[92]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[93]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[94]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[95]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[96]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[97]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[98]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                           send_data[99]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b
+                          send_data[100]                                     BYTE    0 "                                                               *"    2   17    1   10    0    0        b

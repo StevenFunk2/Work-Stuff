@@ -1,0 +1,16 @@
+VAR
+	cleat4 : BOOL;
+	cleat1 : BOOL;
+	cleat2 : BOOL;
+	cleat3 : BOOL;
+	cleat8 : BOOL;
+	cleat5 : BOOL;
+	cleat6 : BOOL;
+	cleat7 : BOOL;
+	TON_0 : TON;
+	FirstScan : BOOL;
+	TON_10ms_0 : TON_10ms;
+	OnTimerDone : BOOL;
+	TOF_10ms_0 : TOF_10ms;
+	DetectSignal : BOOL;
+END_VAR

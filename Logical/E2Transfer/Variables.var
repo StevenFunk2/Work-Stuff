@@ -1,0 +1,9 @@
+VAR
+	TSPUnlatch : BOOL;
+	TSSystemTripPulse : BOOL;
+	TP_0 : TP;
+	TP_1 : TP;
+	TP_2 : TP;
+	Lift3DownPulse : BOOL;
+	TON_0 : TON;
+END_VAR

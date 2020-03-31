@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Transfer xmlns="http://br-automation.co.at/AS/Transfer">
+  <OperatingSystem Version="J4.25"/>
+  <Hardware Target="SG4"/>
+  <Operation Delete="Client.br"/>
+  <Operation Delete="LampTest.br"/>
+  <Operation Delete="HMIButtons.br"/>
+  <Operation Delete="CleatRoll.br"/>
+  <Operation Delete="HydraulicB.br"/>
+  <Operation Delete="HWBwoPLC.br"/>
+  <Operation Delete="HWBwPLC.br"/>
+  <Operation Delete="BrakeCommo.br"/>
+  <Operation Delete="Pinspotter.br"/>
+  <Operation Delete="GlueApp.br"/>
+  <Operation Delete="Insulmatic.br"/>
+  <Operation Delete="TDCRFPshrs.br"/>
+  <Operation Delete="TDCTable.br"/>
+  <Operation Delete="MarkRF.br"/>
+  <Operation Delete="MarkTable.br"/>
+  <Operation Delete="Feeder.br"/>
+  <Operation Delete="MotionCont.br"/>
+  <Operation Delete="Server.br"/>
+  <Operation Delete="Library.br"/>
+  <Operation Delete="MestekLib.br"/>
+  <Operation Delete="astcp.br"/>
+  <Operation Delete="asieccon.br"/>
+  <Operation Delete="astime.br"/>
+  <Operation Download="ashwd.br" Memory="SystemROM"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
+  <Operation Download="arconfig.br" Memory="SystemROM"/>
+  <Operation Download="sysconf.br" Memory="SystemROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="TCData.br" Memory="SystemROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
+  <Operation Download="runtime.br" Memory="UserROM"/>
+  <Operation Download="asstring.br" Memory="UserROM"/>
+  <Operation Download="astime.br" Memory="UserROM"/>
+  <Operation Download="asieccon.br" Memory="UserROM"/>
+  <Operation Download="astcp.br" Memory="UserROM"/>
+  <Operation Download="MestekLib.br" Memory="UserROM"/>
+  <Operation Download="Library.br" Memory="UserROM"/>
+  <Operation Download="Server.br" Memory="UserROM"/>
+  <Operation Download="MotionCont.br" Memory="UserROM"/>
+  <Operation Download="Feeder.br" Memory="UserROM"/>
+  <Operation Download="MarkTable.br" Memory="UserROM"/>
+  <Operation Download="MarkRF.br" Memory="UserROM"/>
+  <Operation Download="TDCTable.br" Memory="UserROM"/>
+  <Operation Download="TDCRFPshrs.br" Memory="UserROM"/>
+  <Operation Download="Insulmatic.br" Memory="UserROM"/>
+  <Operation Download="GlueApp.br" Memory="UserROM"/>
+  <Operation Download="Pinspotter.br" Memory="UserROM"/>
+  <Operation Download="BrakeCommo.br" Memory="UserROM"/>
+  <Operation Download="HWBwPLC.br" Memory="UserROM"/>
+  <Operation Download="HWBwoPLC.br" Memory="UserROM"/>
+  <Operation Download="HydraulicB.br" Memory="UserROM"/>
+  <Operation Download="CleatRoll.br" Memory="UserROM"/>
+  <Operation Download="HMIButtons.br" Memory="UserROM"/>
+  <Operation Download="LampTest.br" Memory="UserROM"/>
+  <Operation Download="Client.br" Memory="UserROM"/>
+</Transfer>

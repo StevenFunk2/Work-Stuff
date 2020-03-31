@@ -1,0 +1,31 @@
+VAR
+	zzBOOL00010000:BOOL:=FALSE;
+	zzBOOL00010001:BOOL:=FALSE;
+	zzRTR000010000:r_trig:=(0);
+	zzRTR000010001:r_trig:=(0);
+	zzRTR000010002:r_trig:=(0);
+	zzRTR000010003:r_trig:=(0);
+	zzRTR000010004:r_trig:=(0);
+	zzRTR000010005:r_trig:=(0);
+	zzRTR000010006:r_trig:=(0);
+	zzRTR000010007:r_trig:=(0);
+	zzRTR000010008:r_trig:=(0);
+	zzRTR000010009:r_trig:=(0);
+	zzRTR00001000A:r_trig:=(0);
+	zzRTR00001000B:r_trig:=(0);
+	zzRTR00001000C:r_trig:=(0);
+	zzRTR00001000D:r_trig:=(0);
+	zzRTR00001000E:r_trig:=(0);
+	zzRTR00001000F:r_trig:=(0);
+	zzRTR000010010:r_trig:=(0);
+	zzRTR000010011:r_trig:=(0);
+	zzRTR000010012:r_trig:=(0);
+	zzRTR000010013:r_trig:=(0);
+	zzRTR000010014:r_trig:=(0);
+	zzRTR000010015:r_trig:=(0);
+	zzRTR000010016:r_trig:=(0);
+	zzRTR000010017:r_trig:=(0);
+	zzRTR000010018:r_trig:=(0);
+	zzRTR000010019:r_trig:=(0);
+	zzRTR00001001A:r_trig:=(0);
+END_VAR

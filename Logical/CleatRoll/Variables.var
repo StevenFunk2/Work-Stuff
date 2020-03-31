@@ -1,0 +1,28 @@
+VAR
+	tmCleatOnDelay : TIME;
+	tmCleatOffDelay : TIME;
+	CleatOff : DINT;
+	Cleat1And3 : DINT;
+	Cleat2And4 : DINT;
+	CleatFull : DINT;
+	CleatLeftSideOnly : DINT;
+	CleatRightSideOnly : DINT;
+	CleatBothSides : DINT;
+	CleatLeft : BOOL;
+	CleatRight : BOOL;
+	CRReset : BOOL;
+	cleat4 : BOOL;
+	cleat1 : BOOL := FALSE;
+	cleat2 : BOOL;
+	cleat3 : BOOL;
+	CleatOutput : BOOL;
+	CleatOutputRaw : BOOL;
+	TON_0 : TON;
+	TOF_0 : TOF;
+	CleatOutputDOB : BOOL;
+	CleatOutputDOM : BOOL;
+	TON_1 : TON;
+	blCleat1And3 : BOOL;
+	blCleat2And4 : BOOL;
+	blCleatFull : BOOL;
+END_VAR

@@ -1,0 +1,5 @@
+VAR
+	TON_0 : TON;
+	CoilA : BOOL;
+	MyEt : TIME;
+END_VAR

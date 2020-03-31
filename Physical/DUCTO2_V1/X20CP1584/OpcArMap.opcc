@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Map>
+  <Tag Name="MakeBeadRollTable" Scope="">
+    <PV Name="MakeBeadRollTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeButtonTable" Scope="">
+    <PV Name="MakeButtonTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeCHoleTable" Scope="">
+    <PV Name="MakeCHoleTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeCleatTable" Scope="">
+    <PV Name="MakeCleatTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeCustomLTTable" Scope="">
+    <PV Name="MakeCustomLTTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeCustomVTable" Scope="">
+    <PV Name="MakeCustomVTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeLHoleTable" Scope="">
+    <PV Name="MakeLHoleTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeLTTable" Scope="">
+    <PV Name="MakeLTTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeRHoleTable" Scope="">
+    <PV Name="MakeRHoleTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeShearBrakeTable" Scope="">
+    <PV Name="MakeShearBrakeTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeShearTable" Scope="">
+    <PV Name="MakeShearTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+  <Tag Name="MakeVTable" Scope="">
+    <PV Name="MakeVTable" Task="" DataType="boolean" IsVector="False" BitNumber="none" />
+  </Tag>
+</Map>

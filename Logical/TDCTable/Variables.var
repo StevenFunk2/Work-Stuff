@@ -1,0 +1,29 @@
+VAR
+	MarkSetComplete : BOOL;
+	Cycle6 : BOOL;
+	Cycle1 : BOOL;
+	PartSquared : BOOL;
+	Cycle2 : BOOL;
+	Cycle3 : BOOL;
+	PusherPaused : BOOL;
+	Cycle4 : BOOL;
+	Cycle5 : BOOL;
+	DwellDone : BOOL;
+	PartSettleDelay : TIME;
+	TON_0 : TON;
+	PauseDwell : TIME;
+	TON_1 : TON;
+	TDCPartLength : REAL;
+	TableSpeed : REAL := 10.0;
+	PusherDwellTime : TIME;
+	UseMinDwell : BOOL;
+	TON_2 : TON;
+	TP_0 : TP;
+	SetupPulse : BOOL;
+	TON_3 : TON;
+	KnurledRoll : BOOL;
+	PushReverse : BOOL;
+	PusherDwellReal : REAL;
+	TP_1 : TP;
+	DuctTypeEquals0 : BOOL;
+END_VAR

@@ -1,0 +1,1073 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.5.388"?>
+<Objects>
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package"
+    LastWriteTime="131697575702054951" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="131625827320000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="131701781462795680"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="131637019280000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="131118756520000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="131118756000000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="131118756180000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="131118756360000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="131118756520000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="131118756000000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="131118756180000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="131118756360000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="131118756480000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="131118755960000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="131118756140000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="131118756300000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="131118756400000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="131118755900000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="131118756060000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="131118756240000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="131118756520000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="131118756020000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="131118756180000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="131118756360000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\MestekLib\IEC.lby"
+    LogicalPath="Libraries.MestekLib"
+    Type="Library"
+    LastWriteTime="131631833780000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\MestekLib\Types.typ"
+    LogicalPath="Libraries.MestekLib.Types.typ"
+    Type="File"
+    LastWriteTime="131631831640000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\MestekLib\Constants.var"
+    LogicalPath="Libraries.MestekLib.Constants.var"
+    Type="File"
+    LastWriteTime="131631831640000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\MestekLib\MestekLib.fun"
+    LogicalPath="Libraries.MestekLib.MestekLib.fun"
+    Type="File"
+    LastWriteTime="131631834260000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\MestekLib\myAdd.st"
+    LogicalPath="Libraries.MestekLib.myAdd.st"
+    Type="File"
+    LastWriteTime="131631834660000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\AsTCP\Binary.lby"
+    LogicalPath="Libraries.AsTCP"
+    Type="Library"
+    LastWriteTime="131118756480000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\AsTCP\AsTCP.fun"
+    LogicalPath="Libraries.AsTCP.AsTCP.fun"
+    Type="File"
+    LastWriteTime="131118755960000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\AsTCP\AsTCP.typ"
+    LogicalPath="Libraries.AsTCP.AsTCP.typ"
+    Type="File"
+    LastWriteTime="131118756140000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\AsTCP\AsTCP.var"
+    LogicalPath="Libraries.AsTCP.AsTCP.var"
+    Type="File"
+    LastWriteTime="131118756300000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\asstring\Binary.lby"
+    LogicalPath="Libraries.asstring"
+    Type="Library"
+    LastWriteTime="131637019280000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\asstring\asstring.fun"
+    LogicalPath="Libraries.asstring.asstring.fun"
+    Type="File"
+    LastWriteTime="131637019280000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\asstring\asstring.typ"
+    LogicalPath="Libraries.asstring.asstring.typ"
+    Type="File"
+    LastWriteTime="131637019280000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\asstring\asstring.var"
+    LogicalPath="Libraries.asstring.asstring.var"
+    Type="File"
+    LastWriteTime="131637019280000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LampTest\IEC.prg"
+    LogicalPath="LampTest"
+    Type="Program"
+    LastWriteTime="131625829800000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LampTest\Cyclic.ld"
+    LogicalPath="LampTest.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131625980340000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LampTest\Init.ld"
+    LogicalPath="LampTest.Init.ld"
+    Type="File"
+    LastWriteTime="131625829800000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LampTest\Exit.ld"
+    LogicalPath="LampTest.Exit.ld"
+    Type="File"
+    LastWriteTime="131625829800000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LampTest\Types.typ"
+    LogicalPath="LampTest.Types.typ"
+    Type="File"
+    LastWriteTime="131625829800000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LampTest\Variables.var"
+    LogicalPath="LampTest.Variables.var"
+    Type="File"
+    LastWriteTime="131625851480000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MotionControl1\IEC.prg"
+    LogicalPath="MotionControl1"
+    Type="Program"
+    LastWriteTime="131626756460000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MotionControl1\Cyclic.st"
+    LogicalPath="MotionControl1.Cyclic.st"
+    Type="File"
+    LastWriteTime="131653463960000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MotionControl1\Init.st"
+    LogicalPath="MotionControl1.Init.st"
+    Type="File"
+    LastWriteTime="131626756460000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MotionControl1\Exit.st"
+    LogicalPath="MotionControl1.Exit.st"
+    Type="File"
+    LastWriteTime="131626756460000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MotionControl1\Types.typ"
+    LogicalPath="MotionControl1.Types.typ"
+    Type="File"
+    LastWriteTime="131626756460000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MotionControl1\Variables.var"
+    LogicalPath="MotionControl1.Variables.var"
+    Type="File"
+    LastWriteTime="131630147080000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Feeder\IEC.prg"
+    LogicalPath="Feeder"
+    Type="Program"
+    LastWriteTime="131631837580000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Feeder\Cyclic.ld"
+    LogicalPath="Feeder.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131667364180000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Feeder\Init.ld"
+    LogicalPath="Feeder.Init.ld"
+    Type="File"
+    LastWriteTime="131630239140000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Feeder\Exit.ld"
+    LogicalPath="Feeder.Exit.ld"
+    Type="File"
+    LastWriteTime="131630239140000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Feeder\Types.typ"
+    LogicalPath="Feeder.Types.typ"
+    Type="File"
+    LastWriteTime="131630239140000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Feeder\Variables.var"
+    LogicalPath="Feeder.Variables.var"
+    Type="File"
+    LastWriteTime="131655070640000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Feeder\Action.st"
+    LogicalPath="Feeder.Action.st"
+    Type="File"
+    LastWriteTime="131655052960000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HMIButtons\IEC.prg"
+    LogicalPath="HMIButtons"
+    Type="Program"
+    LastWriteTime="131630906700000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HMIButtons\Cyclic.ld"
+    LogicalPath="HMIButtons.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131631006600000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HMIButtons\Init.ld"
+    LogicalPath="HMIButtons.Init.ld"
+    Type="File"
+    LastWriteTime="131630906700000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HMIButtons\Exit.ld"
+    LogicalPath="HMIButtons.Exit.ld"
+    Type="File"
+    LastWriteTime="131630906700000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HMIButtons\Types.typ"
+    LogicalPath="HMIButtons.Types.typ"
+    Type="File"
+    LastWriteTime="131630906700000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HMIButtons\Variables.var"
+    LogicalPath="HMIButtons.Variables.var"
+    Type="File"
+    LastWriteTime="131631092640000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\OpcTag.opct"
+    LogicalPath="OpcTag.opct"
+    Type="File"
+    LastWriteTime="131631862740000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Package.pkg"
+    LogicalPath="LibAsTCP1_ST"
+    Type="Package"
+    LastWriteTime="131637004140000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\LibAsTCP1_ST.typ"
+    LogicalPath="LibAsTCP1_ST.LibAsTCP1_ST.typ"
+    Type="File"
+    LastWriteTime="131642383960000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\LibAsTCP1_ST.var"
+    LogicalPath="LibAsTCP1_ST.LibAsTCP1_ST.var"
+    Type="File"
+    LastWriteTime="131631996520000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Server\IEC.prg"
+    LogicalPath="LibAsTCP1_ST.Server"
+    Type="Program"
+    LastWriteTime="131631996520000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Server\Server.st"
+    LogicalPath="LibAsTCP1_ST.Server.Server.st"
+    Type="File"
+    LastWriteTime="131702674093373498"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Server\Server.typ"
+    LogicalPath="LibAsTCP1_ST.Server.Server.typ"
+    Type="File"
+    LastWriteTime="131642141140000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Server\Server.var"
+    LogicalPath="LibAsTCP1_ST.Server.Server.var"
+    Type="File"
+    LastWriteTime="131656877060000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Client\IEC.prg"
+    LogicalPath="LibAsTCP1_ST.Client"
+    Type="Program"
+    LastWriteTime="131631996520000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Client\Client.st"
+    LogicalPath="LibAsTCP1_ST.Client.Client.st"
+    Type="File"
+    LastWriteTime="131643020680000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Client\Client.typ"
+    LogicalPath="LibAsTCP1_ST.Client.Client.typ"
+    Type="File"
+    LastWriteTime="131631996520000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Client\Client.var"
+    LogicalPath="LibAsTCP1_ST.Client.Client.var"
+    Type="File"
+    LastWriteTime="131642388160000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Library\IEC.lby"
+    LogicalPath="LibAsTCP1_ST.Library"
+    Type="Library"
+    LastWriteTime="131637004140000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Library\Types.typ"
+    LogicalPath="LibAsTCP1_ST.Library.Types.typ"
+    Type="File"
+    LastWriteTime="131637004140000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Library\Constants.var"
+    LogicalPath="LibAsTCP1_ST.Library.Constants.var"
+    Type="File"
+    LastWriteTime="131637004140000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Library\Library.fun"
+    LogicalPath="LibAsTCP1_ST.Library.Library.fun"
+    Type="File"
+    LastWriteTime="131637004140000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkTable\IEC.prg"
+    LogicalPath="MarkTable"
+    Type="Program"
+    LastWriteTime="131655059100000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkTable\Cyclic.ld"
+    LogicalPath="MarkTable.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131699228418360325"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkTable\Init.ld"
+    LogicalPath="MarkTable.Init.ld"
+    Type="File"
+    LastWriteTime="131655059100000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkTable\Exit.ld"
+    LogicalPath="MarkTable.Exit.ld"
+    Type="File"
+    LastWriteTime="131655059100000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkTable\Types.typ"
+    LogicalPath="MarkTable.Types.typ"
+    Type="File"
+    LastWriteTime="131655059100000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkTable\Variables.var"
+    LogicalPath="MarkTable.Variables.var"
+    Type="File"
+    LastWriteTime="131701718993964737"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkRF\IEC.prg"
+    LogicalPath="MarkRF"
+    Type="Program"
+    LastWriteTime="131655165160000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkRF\Cyclic.ld"
+    LogicalPath="MarkRF.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131655316060000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkRF\Init.ld"
+    LogicalPath="MarkRF.Init.ld"
+    Type="File"
+    LastWriteTime="131655165160000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkRF\Exit.ld"
+    LogicalPath="MarkRF.Exit.ld"
+    Type="File"
+    LastWriteTime="131655165160000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkRF\Types.typ"
+    LogicalPath="MarkRF.Types.typ"
+    Type="File"
+    LastWriteTime="131655165160000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkRF\Variables.var"
+    LogicalPath="MarkRF.Variables.var"
+    Type="File"
+    LastWriteTime="131655322620000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCTable\IEC.prg"
+    LogicalPath="TDCTable"
+    Type="Program"
+    LastWriteTime="131656016660000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCTable\Cyclic.ld"
+    LogicalPath="TDCTable.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131656129580000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCTable\Init.ld"
+    LogicalPath="TDCTable.Init.ld"
+    Type="File"
+    LastWriteTime="131656016660000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCTable\Exit.ld"
+    LogicalPath="TDCTable.Exit.ld"
+    Type="File"
+    LastWriteTime="131656016660000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCTable\Types.typ"
+    LogicalPath="TDCTable.Types.typ"
+    Type="File"
+    LastWriteTime="131656016660000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCTable\Variables.var"
+    LogicalPath="TDCTable.Variables.var"
+    Type="File"
+    LastWriteTime="131656129580000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCRFPshrs\IEC.prg"
+    LogicalPath="TDCRFPshrs"
+    Type="Program"
+    LastWriteTime="131656139880000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCRFPshrs\Cyclic.ld"
+    LogicalPath="TDCRFPshrs.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131656164580000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCRFPshrs\Init.ld"
+    LogicalPath="TDCRFPshrs.Init.ld"
+    Type="File"
+    LastWriteTime="131656139880000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCRFPshrs\Exit.ld"
+    LogicalPath="TDCRFPshrs.Exit.ld"
+    Type="File"
+    LastWriteTime="131656139880000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCRFPshrs\Types.typ"
+    LogicalPath="TDCRFPshrs.Types.typ"
+    Type="File"
+    LastWriteTime="131656139880000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCRFPshrs\Variables.var"
+    LogicalPath="TDCRFPshrs.Variables.var"
+    Type="File"
+    LastWriteTime="131656164580000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\GlueApp\IEC.prg"
+    LogicalPath="GlueApp"
+    Type="Program"
+    LastWriteTime="131656165320000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\GlueApp\Cyclic.ld"
+    LogicalPath="GlueApp.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131656181680000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\GlueApp\Init.ld"
+    LogicalPath="GlueApp.Init.ld"
+    Type="File"
+    LastWriteTime="131656165320000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\GlueApp\Exit.ld"
+    LogicalPath="GlueApp.Exit.ld"
+    Type="File"
+    LastWriteTime="131656165320000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\GlueApp\Types.typ"
+    LogicalPath="GlueApp.Types.typ"
+    Type="File"
+    LastWriteTime="131656165320000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\GlueApp\Variables.var"
+    LogicalPath="GlueApp.Variables.var"
+    Type="File"
+    LastWriteTime="131656181680000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Insulmatic\IEC.prg"
+    LogicalPath="Insulmatic"
+    Type="Program"
+    LastWriteTime="131656835020000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Insulmatic\Cyclic.ld"
+    LogicalPath="Insulmatic.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131656954560000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Insulmatic\Init.ld"
+    LogicalPath="Insulmatic.Init.ld"
+    Type="File"
+    LastWriteTime="131656835020000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Insulmatic\Exit.ld"
+    LogicalPath="Insulmatic.Exit.ld"
+    Type="File"
+    LastWriteTime="131656835020000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Insulmatic\Types.typ"
+    LogicalPath="Insulmatic.Types.typ"
+    Type="File"
+    LastWriteTime="131656835020000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Insulmatic\Variables.var"
+    LogicalPath="Insulmatic.Variables.var"
+    Type="File"
+    LastWriteTime="131656954560000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Pinspotter\IEC.prg"
+    LogicalPath="Pinspotter"
+    Type="Program"
+    LastWriteTime="131656964060000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Pinspotter\Cyclic.ld"
+    LogicalPath="Pinspotter.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131660504580000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Pinspotter\Init.ld"
+    LogicalPath="Pinspotter.Init.ld"
+    Type="File"
+    LastWriteTime="131656964060000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Pinspotter\Exit.ld"
+    LogicalPath="Pinspotter.Exit.ld"
+    Type="File"
+    LastWriteTime="131656964060000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Pinspotter\Types.typ"
+    LogicalPath="Pinspotter.Types.typ"
+    Type="File"
+    LastWriteTime="131656964060000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Pinspotter\Variables.var"
+    LogicalPath="Pinspotter.Variables.var"
+    Type="File"
+    LastWriteTime="131668105840000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\BrakeCommon\IEC.prg"
+    LogicalPath="BrakeCommon"
+    Type="Program"
+    LastWriteTime="131661098840000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\BrakeCommon\Cyclic.ld"
+    LogicalPath="BrakeCommon.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131673468780000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\BrakeCommon\Init.ld"
+    LogicalPath="BrakeCommon.Init.ld"
+    Type="File"
+    LastWriteTime="131661098840000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\BrakeCommon\Exit.ld"
+    LogicalPath="BrakeCommon.Exit.ld"
+    Type="File"
+    LastWriteTime="131661098840000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\BrakeCommon\Types.typ"
+    LogicalPath="BrakeCommon.Types.typ"
+    Type="File"
+    LastWriteTime="131661098840000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\BrakeCommon\Variables.var"
+    LogicalPath="BrakeCommon.Variables.var"
+    Type="File"
+    LastWriteTime="131673313260000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwPLC\IEC.prg"
+    LogicalPath="HWBwPLC"
+    Type="Program"
+    LastWriteTime="131661166880000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwPLC\Cyclic.ld"
+    LogicalPath="HWBwPLC.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131673329780000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwPLC\Init.ld"
+    LogicalPath="HWBwPLC.Init.ld"
+    Type="File"
+    LastWriteTime="131661166880000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwPLC\Exit.ld"
+    LogicalPath="HWBwPLC.Exit.ld"
+    Type="File"
+    LastWriteTime="131661166880000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwPLC\Types.typ"
+    LogicalPath="HWBwPLC.Types.typ"
+    Type="File"
+    LastWriteTime="131661166880000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwPLC\Variables.var"
+    LogicalPath="HWBwPLC.Variables.var"
+    Type="File"
+    LastWriteTime="131673333620000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwoPLC\IEC.prg"
+    LogicalPath="HWBwoPLC"
+    Type="Program"
+    LastWriteTime="131667332800000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwoPLC\Cyclic.ld"
+    LogicalPath="HWBwoPLC.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131673415620000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwoPLC\Init.ld"
+    LogicalPath="HWBwoPLC.Init.ld"
+    Type="File"
+    LastWriteTime="131667332800000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwoPLC\Exit.ld"
+    LogicalPath="HWBwoPLC.Exit.ld"
+    Type="File"
+    LastWriteTime="131667332800000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwoPLC\Types.typ"
+    LogicalPath="HWBwoPLC.Types.typ"
+    Type="File"
+    LastWriteTime="131667332800000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwoPLC\Variables.var"
+    LogicalPath="HWBwoPLC.Variables.var"
+    Type="File"
+    LastWriteTime="131673381080000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HydraulicBrakeCarriage\IEC.prg"
+    LogicalPath="HydraulicBrakeCarriage"
+    Type="Program"
+    LastWriteTime="131668040640000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HydraulicBrakeCarriage\Cyclic.ld"
+    LogicalPath="HydraulicBrakeCarriage.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131673402280000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HydraulicBrakeCarriage\Init.ld"
+    LogicalPath="HydraulicBrakeCarriage.Init.ld"
+    Type="File"
+    LastWriteTime="131668040640000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HydraulicBrakeCarriage\Exit.ld"
+    LogicalPath="HydraulicBrakeCarriage.Exit.ld"
+    Type="File"
+    LastWriteTime="131668040640000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HydraulicBrakeCarriage\Types.typ"
+    LogicalPath="HydraulicBrakeCarriage.Types.typ"
+    Type="File"
+    LastWriteTime="131668040640000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HydraulicBrakeCarriage\Variables.var"
+    LogicalPath="HydraulicBrakeCarriage.Variables.var"
+    Type="File"
+    LastWriteTime="131673329780000000"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\CleatRoll\IEC.prg"
+    LogicalPath="CleatRoll"
+    Type="Program"
+    LastWriteTime="131697575074012295" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\CleatRoll\Cyclic.ld"
+    LogicalPath="CleatRoll.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131701727875531431"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\CleatRoll\Init.ld"
+    LogicalPath="CleatRoll.Init.ld"
+    Type="File"
+    LastWriteTime="131697599364954247"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\CleatRoll\Exit.ld"
+    LogicalPath="CleatRoll.Exit.ld"
+    Type="File"
+    LastWriteTime="131697575073932332"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\CleatRoll\Types.typ"
+    LogicalPath="CleatRoll.Types.typ"
+    Type="File"
+    LastWriteTime="131697575073962158"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\CleatRoll\Variables.var"
+    LogicalPath="CleatRoll.Variables.var"
+    Type="File"
+    LastWriteTime="131701731211076401"
+    Private="true" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\Config.pkg"
+    LogicalPath="sim"
+    Type="Configuration"
+    LastWriteTime="131631999200000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\Hardware.hw"
+    LogicalPath="sim.Hardware.hw"
+    Type="File"
+    LastWriteTime="131637219000000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\Hardware.hwl"
+    LogicalPath="sim.Hardware.hwl"
+    Type="File"
+    LastWriteTime="131631999780000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\Cpu.pkg"
+    LogicalPath="sim.PC"
+    Type="Cpu"
+    LastWriteTime="131632855880000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\Cpu.sw"
+    LogicalPath="sim.PC.Cpu.sw"
+    Type="File"
+    LastWriteTime="131697644129253191"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\Cpu.per"
+    LogicalPath="sim.PC.Cpu.per"
+    Type="File"
+    LastWriteTime="131631998560000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\IoMap.iom"
+    LogicalPath="sim.PC.IoMap.iom"
+    Type="File"
+    LastWriteTime="131631998560000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\PvMap.vvm"
+    LogicalPath="sim.PC.PvMap.vvm"
+    Type="File"
+    LastWriteTime="131631998560000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\mapp\Package.pkg"
+    LogicalPath="sim.PC.mapp"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\Connectivity\Package.pkg"
+    LogicalPath="sim.PC.Connectivity"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="sim.PC.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\TextSystem\Package.pkg"
+    LogicalPath="sim.PC.TextSystem"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="sim.PC.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="131631998560000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="sim.PC.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="131631998560000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="sim.PC.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="131631998560000000" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\PC\OpcArMap.opcc"
+    LogicalPath="sim.PC.OpcArMap.opcc"
+    Type="File"
+    LastWriteTime="131631998560000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Physical\sim\Hardware.jpg"
+    LogicalPath="sim.Hardware.jpg"
+    Type="File"
+    LastWriteTime="131631999780000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
+    LogicalPath="AsIecCon.h"
+    Type="File"
+    LastWriteTime="131118756580000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\asstring\SG4\asstring.h"
+    LogicalPath="asstring.h"
+    Type="File"
+    LastWriteTime="131118756640000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\AsTCP\SG4\AsTCP.h"
+    LogicalPath="AsTCP.h"
+    Type="File"
+    LastWriteTime="131118756660000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\astime\SG4\astime.h"
+    LogicalPath="astime.h"
+    Type="File"
+    LastWriteTime="131118756660000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Library\SG4\Library.h"
+    LogicalPath="Library.h"
+    Type="File"
+    LastWriteTime="0"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\MestekLib\SG4\MestekLib.h"
+    LogicalPath="MestekLib.h"
+    Type="File"
+    LastWriteTime="0"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\operator\SG4\operator.h"
+    LogicalPath="operator.h"
+    Type="File"
+    LastWriteTime="131118756700000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\runtime\SG4\runtime.h"
+    LogicalPath="runtime.h"
+    Type="File"
+    LastWriteTime="131118756700000000"
+    Private="false" />
+  <Object
+    Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Libraries\standard\SG4\standard.h"
+    LogicalPath="standard.h"
+    Type="File"
+    LastWriteTime="131118756700000000"
+    Private="false" />
+</Objects>

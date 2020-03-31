@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.14.119 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="IMotionCon"
+      Disable="false"
+      Source="IMotionControl"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\IMotionCon\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\IMotionCon\Init.st.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\IMotionCon\Exit.st.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\IMotionControl\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\IMotionControl\Variables.var" />
+    </Task>
+    <Task
+      Name="CleatRoll"
+      Disable="false"
+      Source="CleatRoll"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\CleatRoll\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\CleatRoll\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\CleatRoll\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\CleatRoll\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\CleatRoll\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="PDButtons"
+      Disable="false"
+      Source="PDButtons"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\PDButtons\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\PDButtons\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\PDButtons\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\PDButtons\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\PDButtons\Variables.var" />
+    </Task>
+    <Task
+      Name="Uncoiler_2"
+      Disable="false"
+      Source="Uncoiler_2"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Uncoiler_2\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Uncoiler_2\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Uncoiler_2\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\Uncoiler_2\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\Uncoiler_2\Variables.var" />
+    </Task>
+    <Task
+      Name="CoilSelect"
+      Disable="false"
+      Source="CoilSelect"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\CoilSelect\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\CoilSelect\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\CoilSelect\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\CoilSelect\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\CoilSelect\Variables.var" />
+    </Task>
+    <Task
+      Name="MarkTable"
+      Disable="false"
+      Source="MarkTable"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\MarkTable\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\MarkTable\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\MarkTable\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\MarkTable\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\MarkTable\Variables.var" />
+    </Task>
+    <Task
+      Name="MarkRF"
+      Disable="false"
+      Source="MarkRF"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\MarkRF\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\MarkRF\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\MarkRF\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\MarkRF\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\MarkRF\Variables.var" />
+    </Task>
+    <Task
+      Name="Feeder"
+      Disable="false"
+      Source="Feeder"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Feeder\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Feeder\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Feeder\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\Feeder\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\Feeder\Variables.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Feeder\Action.st.var" />
+    </Task>
+    <Task
+      Name="SBrake"
+      Disable="false"
+      Source="SBrake"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\SBrake\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\SBrake\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\SBrake\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\SBrake\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\SBrake\Variables.var" />
+    </Task>
+    <Task
+      Name="TDCTable"
+      Disable="false"
+      Source="TDCTable"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\TDCTable\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\TDCTable\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\TDCTable\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\TDCTable\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\TDCTable\Variables.var" />
+    </Task>
+    <Task
+      Name="TDCRFPshrs"
+      Disable="false"
+      Source="TDCRFPshrs"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\TDCRFPshrs\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\TDCRFPshrs\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\TDCRFPshrs\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\TDCRFPshrs\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\TDCRFPshrs\Variables.var" />
+    </Task>
+    <Task
+      Name="GlueApp"
+      Disable="false"
+      Source="GlueApp"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\GlueApp\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\GlueApp\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\GlueApp\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\GlueApp\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\GlueApp\Variables.var" />
+    </Task>
+    <Task
+      Name="Insulmatic"
+      Disable="false"
+      Source="Insulmatic"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Insulmatic\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Insulmatic\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Insulmatic\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\Insulmatic\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\Insulmatic\Variables.var" />
+    </Task>
+    <Task
+      Name="Pinspotter"
+      Disable="false"
+      Source="Pinspotter"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Pinspotter\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Pinspotter\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Pinspotter\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\Pinspotter\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\Pinspotter\Variables.var" />
+    </Task>
+    <Task
+      Name="BrakeCommo"
+      Disable="false"
+      Source="BrakeCommon"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\BrakeCommo\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\BrakeCommo\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\BrakeCommo\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\BrakeCommon\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\BrakeCommon\Variables.var" />
+    </Task>
+    <Task
+      Name="HydraulicB"
+      Disable="false"
+      Source="HydraulicBrakeCarriage"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\HydraulicB\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\HydraulicB\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\HydraulicB\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\HydraulicBrakeCarriage\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\HydraulicBrakeCarriage\Variables.var" />
+    </Task>
+    <Task
+      Name="HWBwoPLC"
+      Disable="false"
+      Source="HWBwoPLC"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\HWBwoPLC\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\HWBwoPLC\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\HWBwoPLC\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\HWBwoPLC\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\HWBwoPLC\Variables.var" />
+    </Task>
+    <Task
+      Name="MarkHead"
+      Disable="false"
+      Source="MarkHead"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\MarkHead\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\MarkHead\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\MarkHead\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\MarkHead\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\MarkHead\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="HMIButtons"
+      Disable="false"
+      Source="HMIButtons"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\HMIButtons\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\HMIButtons\Init.ld.var" />
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\HMIButtons\Exit.ld.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\HMIButtons\Types.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\HMIButtons\Variables.var" />
+    </Task>
+    <Task
+      Name="Server"
+      Disable="false"
+      Source="LibAsTCP1_ST.Server"
+      Language="IEC">
+      <InternalFile
+        Path="C:\Code\BandR Duct Line Project\Temp\Objects\DUCTO2_RIO\X20CP1584\Server\Server.st.var" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Server\Server.typ" />
+      <File
+        Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Server\Server.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

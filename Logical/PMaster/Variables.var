@@ -1,0 +1,14 @@
+VAR
+	PunchCurrentSelect : DINT;
+	OGResult : DINT;
+	OGLatch : BOOL;
+	FourFootCoil : BOOL;
+	FiveFootCoil : BOOL;
+	SixFootCoil : BOOL;
+	FourResult : DINT;
+	FFCLatch : BOOL;
+	OneResult : DINT;
+	OutsideLatch : BOOL;
+	DamperResult : DINT;
+	DamperLatch : BOOL;
+END_VAR

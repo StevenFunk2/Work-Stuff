@@ -1,0 +1,8 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=EMotionCon 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=3 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                           MotionStatus1                                      INT    0 "                                                              -1"    0    3    1   10    0    0         
+                              ActualDAC1                                      INT    3 "                                                               0"    0    3    1   10    0    0         
+                                 TopDAC1                                      INT    0 "                                                               0"    0    3    1   10    0    0         
+                        PercentJogSpeed1                                     DINT    0 "                                                              16"    0    4    1   10    0    0         
+                                  MaxDAC                                      INT    0 "                                                           32767"    0    3    1   10    0    0         

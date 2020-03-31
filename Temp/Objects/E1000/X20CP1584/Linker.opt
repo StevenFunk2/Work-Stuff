@@ -1,0 +1,4 @@
+EMotionCon	"$(AS_CPU_PATH)/EMotionCon/Cyclic.st.o" "$(AS_CPU_PATH)/EMotionCon/Init.st.o" "$(AS_CPU_PATH)/EMotionCon/Exit.st.o"  -o "$(AS_CPU_PATH)/EMotionCon/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs -Wl,-q,-T,bur_elf_i386.x -nostdlib
+SysCheck	"$(AS_CPU_PATH)/SysCheck/Cyclic.ld.o" "$(AS_CPU_PATH)/SysCheck/Init.ld.o" "$(AS_CPU_PATH)/SysCheck/Exit.ld.o"  -o "$(AS_CPU_PATH)/SysCheck/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs -Wl,-q,-T,bur_elf_i386.x -nostdlib
+EFeeder	"$(AS_CPU_PATH)/EFeeder/Cyclic.ld.o" "$(AS_CPU_PATH)/EFeeder/Init.ld.o" "$(AS_CPU_PATH)/EFeeder/Exit.ld.o"  -o "$(AS_CPU_PATH)/EFeeder/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs -Wl,-q,-T,bur_elf_i386.x -nostdlib
+Server	"$(AS_CPU_PATH)/Server/Server.st.o"  -o "$(AS_CPU_PATH)/Server/a.out"  -G V4.1.2  -T SG4  -M IA32  -specs=I386specs -Wl,-q,-T,bur_elf_i386.x -nostdlib

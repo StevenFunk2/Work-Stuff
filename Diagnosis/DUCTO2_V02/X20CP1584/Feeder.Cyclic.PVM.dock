@@ -1,0 +1,26 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Feeder 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=100 Type=0 Scope=0 Force=0 Index=20 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                             StartSignal                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                                  Step01                                     BOOL    0 "                                                            TRUE"    0    1    1    2    0    0         
+                              CHoleDwell                                     DINT    0 "                                                             300"    0    4    1   10    0    0         
+                             MakeLTTable                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          MakeShearTable                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                           BeadRollTable                               REAL[0..9]    0 "                                                               *"    0    8   10    0    0    0         
+                        BeadRollTable[0]                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                        BeadRollTable[1]                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                        BeadRollTable[2]                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                        BeadRollTable[3]                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                        BeadRollTable[4]                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                        BeadRollTable[5]                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                        BeadRollTable[6]                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                        BeadRollTable[7]                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                        BeadRollTable[8]                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                        BeadRollTable[9]                                     REAL    0 "                                                               *"    1    8    1   10    0    0         
+                          ShearBrakeHits                                     DINT    0 "                                                              -1"    0    4    1   10    0    0         
+                       MakeBeadRollTable                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                     MakeShearBrakeTable                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                       MakeCustomLTTable                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          MakeCleatTable                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                        MakeCustomVTable                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                         MakeButtonTable                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         

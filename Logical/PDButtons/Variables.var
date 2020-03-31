@@ -1,0 +1,27 @@
+VAR
+	PDHUnlatch : BOOL;
+	hmiBrakeHydraulicsButton : BOOL;
+	BHUnlatch : BOOL;
+	hmiProductHydraulicsButton : BOOL;
+	hmiMarkRollformerButton : BOOL;
+	MROUnlatch : BOOL;
+	TDCTUnlatch : BOOL;
+	TDCRFMUnlatch : BOOL;
+	EBeltsUnlatch : BOOL;
+	hmiUncoilerOnButton : BOOL;
+	UOLUnlatch : BOOL;
+	hmiUncoilerLoadButton : BOOL;
+	ULUnlatch : BOOL;
+	hmiUncoilerRunButton : BOOL;
+	URUnlatch : BOOL;
+	hmiMarkTableButton : BOOL;
+	MTUnlatch : BOOL;
+	hmiFittingsButton : BOOL;
+	hmiDuctSelectButton : BOOL;
+	DSUnlatch : BOOL;
+	hmiProcessorEnableButton : BOOL;
+	PDEUnlatch : BOOL;
+	hmiDuctoAutoButton : BOOL;
+	DAUnlatch : BOOL;
+	InsulmaticUnlatch : BOOL;
+END_VAR

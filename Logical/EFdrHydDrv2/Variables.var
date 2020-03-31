@@ -1,0 +1,16 @@
+VAR
+	difference : DINT;
+	AbsoluteDifference : DINT;
+	InTargetWindow : BOOL;
+	TON_0 : TON;
+	MovingToPosition : BOOL;
+	MoveInitiated : BOOL;
+	PositionLTTarget : BOOL;
+	MoveForward : BOOL;
+	PositionGTTarget : BOOL;
+	MoveReverse : BOOL;
+	InSSWindow : BOOL;
+	SettleTimerDone : BOOL;
+	TP_0 : TP;
+	SlowSolenoidDelay : BOOL;
+END_VAR

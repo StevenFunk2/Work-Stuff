@@ -1,0 +1,26 @@
+VAR
+	difference : DINT;
+	AbsoluteDifference : DINT;
+	InTargetWindow : BOOL;
+	TON_0 : TON;
+	MovingToPosition : BOOL;
+	MoveInitiated : BOOL;
+	PositionLTTarget : BOOL;
+	MoveForward : BOOL;
+	PositionGTTarget : BOOL;
+	MoveReverse : BOOL;
+	InSSWindow : BOOL;
+	SettleTimerDone : BOOL;
+	TON_1 : TON;
+	RevDelay : BOOL;
+	TON_2 : TON;
+	FwdDelay : BOOL;
+	TON_3 : TON;
+	SSSDelay : BOOL;
+	TON_4 : TON;
+	EnableForwardSolenoid : BOOL;
+	TP_0 : TP;
+	ForwardTP : BOOL;
+	TON_5 : TON;
+	EnableReverseSolenoid : BOOL;
+END_VAR

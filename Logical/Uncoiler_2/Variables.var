@@ -1,0 +1,6 @@
+VAR
+	TOF_0 : TOF;
+	UncoilerRunDOB1 : BOOL;
+	TOF_1 : TOF;
+	UncoilerDOB2 : BOOL;
+END_VAR

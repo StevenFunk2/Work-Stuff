@@ -1,0 +1,36 @@
+
+
+Mon Jun 11 10:25:37 2018
+No ARsim registration found!
+  Bernecker & Rainer 
+
+
+
+Mon Jun 11 10:25:37 2018
+COMMAND_COLDSTART
+InstanceName : 01d40198731882f0
+
+WorkingPath :
+C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Simulation\sim\PC\
+
+
+
+Mon Jun 11 10:25:37 2018
+COMMAND_COLDSTART
+Version : J4.25
+
+
+
+Mon Jun 11 10:27:38 2018
+COMMAND_TERMINATE
+
+
+Mon Jun 11 10:27:38 2018
+Old process terminated: C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Simulation\sim\PC\AR000Debug.exe
+
+
+Mon Jun 11 10:27:38 2018
+COMMAND_TERMINATE
+
+
+Mon Jun 11 10:27:39 2018

@@ -1,0 +1,16 @@
+$(AS_PROJECT_PATH)/Logical/OpcTag.opct
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Libraries/operator/operator.var
+$(AS_PROJECT_PATH)/Logical/Libraries/runtime/runtime.var
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIecCon/AsIecCon.var
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.var
+$(AS_PROJECT_PATH)/Logical/Libraries/MestekLib/Constants.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AsTCP/AsTCP.var
+$(AS_PROJECT_PATH)/Logical/Libraries/asstring/asstring.var
+$(AS_PROJECT_PATH)/Logical/LibAsTCP1_ST/Library/Constants.var
+$(AS_PROJECT_PATH)/Logical/LibAsTCP1_ST/LibAsTCP1_ST.var
+$(AS_PROJECT_PATH)/Logical/EMotionControl/Variables.var
+$(AS_PROJECT_PATH)/Logical/SysCheck/Variables.var
+$(AS_PROJECT_PATH)/Logical/EFeeder/Variables.var
+$(AS_PROJECT_PATH)/Logical/LibAsTCP1_ST/Server/Server.var

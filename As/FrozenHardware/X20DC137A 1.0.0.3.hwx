@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module xmlns="http://br-automation.co.at/AS/HardwareModule" Version="1.0.0.3" Description-de="Zähler, 1x ABR, 24 V diff., 300 kHz, Drahtbruchüberwachung" Description-en="Counter, 1x ABR, 24 V diff., 300 kHz, Wire monitoring" SlotWidth="1" Width="13" Height="99">
+	<Aprol>
+		<Config ID="Supported" FromVersion="APROL R 3.3-70" Recommended="true"/>
+	</Aprol>
+	<Channels Target="SG3">
+		<Channel ID="AnalogInput01" HwdResource="IO" Description-de="Analoger Eingang 01: Encoder Position" Description-en="analog input 01: Encoder position">
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Parameter ID="Sig_Raw_16Bit_signed" Value="1" Type="STRING"/>
+			<Pin Number="11" Name="CA-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="12" Name="CB-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="13" Name="CR-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="21" Name="CA-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="22" Name="CB-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="23" Name="CR-01/" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="AnalogInput02" HwdResource="IO" Description-de="Analoger Eingang 02: Encoder Position Nettime" Description-en="analog input 02: Encoder position nettime">
+			<Parameter ID="Address" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Parameter ID="Sig_Raw_16Bit_signed" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="AnalogInput03" HwdResource="IO" Description-de="Analoger Eingang 03: Encoder Latchposition" Description-en="analog input 03: Encoder latch position">
+			<Parameter ID="Address" Value="4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Parameter ID="Sig_Raw_16Bit_signed" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="AnalogInput04" HwdResource="IO" Description-de="Analoger Eingang 04: Drahtbruchstatus / digitale Eingänge" Description-en="analog input 04: Broken wire state / digital inputs">
+			<Parameter ID="Address" Value="6" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+			<Parameter ID="Sig_Raw_16Bit_unsigned" Value="1" Type="STRING"/>
+			<Pin Number="14" Name="DI-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="24" Name="DI-02" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="AnalogOutput01" HwdResource="IO" Description-de="Analoger Ausgang 01: Drahtbruchquittierung / Encoder löschen / Latch enable" Description-en="analog output 01: Broken wire acknowledge / clear encoder / enable latch">
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+			<Parameter ID="Sig_Raw_16Bit_unsigned" Value="1" Type="STRING"/>
+		</Channel>
+	</Channels>
+	<Channels Target="SG4">
+		<Channel ID="ModuleOk" HwdResource="IO" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)">
+			<Parameter ID="Ext" Value="/OK" Type="STRING"/>
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="StaleData" ToVersion="Z3.07" HwdResource="IO" Description-de="Daten stammen nicht aus aktuellem Zyklus" Description-en="Data not from latest cycle">
+			<Filter Value="ModuleInfo='on' AND NOT (FunctionModel='CANIOBusController')"/>
+			<Parameter ID="Ext" Value="/OK" Type="STRING"/>
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="StaleData" FromVersion="A3.08" HwdResource="IO" Description-de="Daten stammen nicht aus aktuellem Zyklus" Description-en="Data not from latest cycle">
+			<Filter Value="NOT (FunctionModel='CANIOBusController')"/>
+			<Parameter ID="Ext" Value="/OK" Type="STRING"/>
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="SerialNumber" ToVersion="Z3.07" HwdResource="IO" Description-de="Seriennummer" Description-en="Serial number">
+			<Filter Value="ModuleInfo='on'"/>
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UDINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Udint" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="SerialNumber" FromVersion="A3.08" HwdResource="IO" Description-de="Seriennummer" Description-en="Serial number">
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UDINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Udint" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="ModuleID" ToVersion="Z3.07" HwdResource="IO" Description-de="Modulkennung" Description-en="Module ID">
+			<Filter Value="ModuleInfo='on'"/>
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="10" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Uint" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="ModuleID" FromVersion="A3.08" HwdResource="IO" Description-de="Modulkennung" Description-en="Module ID">
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="10" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Uint" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="HardwareVariant" ToVersion="Z3.07" HwdResource="IO" Description-de="Hardware Variante" Description-en="Hardware variant">
+			<Filter Value="ModuleInfo='on'"/>
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="12" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Uint" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="HardwareVariant" FromVersion="A3.08" HwdResource="IO" Description-de="Hardware Variante" Description-en="Hardware variant">
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="12" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Uint" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="FirmwareVersion" ToVersion="Z3.07" HwdResource="IO" Description-de="Firmware Version" Description-en="Firmware version">
+			<Filter Value="ModuleInfo='on'"/>
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="14" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Uint" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="FirmwareVersion" FromVersion="A3.08" HwdResource="IO" Description-de="Firmware Version" Description-en="Firmware version">
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="14" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Uint" Value="1" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="SDCLifeCount" HwdResource="IO" Description-de="SDC life count" Description-en="SDC life count">
+			<Filter Value="FunctionModel='Standard' AND SDCInfo='on'"/>
+			<Parameter ID="Address" Value="0x02ab" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="SINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Sint" Value="1" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="Encoder01_32Bit" HwdResource="IO" Description-de="Inkrementalgeber, Eingangsfrequenz max. 300 kHz" Description-en="Incremental encoder, input frequency max. 300 kHz">
+			<Filter Value="FunctionModel='Standard' AND CounterStd01='32Bit'"/>
+			<Parameter ID="Name" Value="Encoder01" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18c4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="DINT" Type="STRING"/>
+			<Parameter ID="Sig_Counter_Dint" Value="1" Type="STRING"/>
+			<Pin Number="11" Name="CA-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="12" Name="CB-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="13" Name="CR-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="21" Name="CA-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="22" Name="CB-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="23" Name="CR-01/" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="Encoder01_16Bit" HwdResource="IO" Description-de="Inkrementalgeber, Eingangsfrequenz max. 300 kHz" Description-en="Incremental encoder, input frequency max. 300 kHz">
+			<Filter Value="FunctionModel='Standard' AND CounterStd01='16Bit'"/>
+			<Parameter ID="Name" Value="Encoder01" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18c6" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Parameter ID="Sig_Counter_Int" Value="1" Type="STRING"/>
+			<Pin Number="11" Name="CA-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="12" Name="CB-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="13" Name="CR-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="21" Name="CA-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="22" Name="CB-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="23" Name="CR-01/" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="Encoder01_16Bit_CANIO" HwdResource="IO" Description-de="Inkrementalgeber, Eingangsfrequenz max. 300 kHz" Description-en="Incremental encoder, input frequency max. 300 kHz">
+			<Filter Value="FunctionModel='CANIOBusController'"/>
+			<Parameter ID="Name" Value="Encoder01" Type="STRING"/>
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Parameter ID="Sig_Counter_Int" Value="1" Type="STRING"/>
+			<Pin Number="11" Name="CA-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="12" Name="CB-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="13" Name="CR-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="21" Name="CA-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="22" Name="CB-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="23" Name="CR-01/" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="Encoder01TimeValid16Bit" HwdResource="IO" Description-de="Nettime des letzten gültigen Encoderwertes" Description-en="Nettime of last valid encoder value">
+			<Filter Value="FunctionModel='Standard' AND CounterTimeInfo='16Bit'"/>
+			<Parameter ID="Name" Value="Encoder01TimeValid" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18a6" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Parameter ID="Sig_St_Int" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01TimeValid32Bit" HwdResource="IO" Description-de="Nettime des letzten gültigen Encoderwertes" Description-en="Nettime of last valid encoder value">
+			<Filter Value="FunctionModel='Standard' AND CounterTimeInfo='32Bit'"/>
+			<Parameter ID="Name" Value="Encoder01TimeValid" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18a4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="DINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Dint" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01TimeValid16Bit_CANIO" HwdResource="IO" Description-de="Nettime des letzten gültigen Encoderwertes" Description-en="Nettime of last valid encoder value">
+			<Filter Value="FunctionModel='CANIOBusController' AND CounterTimeInfo='16Bit'"/>
+			<Parameter ID="Name" Value="Encoder01TimeValid" Type="STRING"/>
+			<Parameter ID="Address" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Parameter ID="Sig_St_Int" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01TimeChanged16Bit" HwdResource="IO" Description-de="Nettime der letzten Encoderwertänderung" Description-en="Nettime of last encoder value change">
+			<Filter Value="(FunctionModel='Standard' OR FunctionModel='CANIOBusController') AND CounterTimeInfo='16Bit'"/>
+			<Parameter ID="Ext" Value="/PSEUDOCYCLIC" Type="STRING"/>
+			<Parameter ID="Name" Value="Encoder01TimeChanged" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18b6" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Parameter ID="Sig_St_Int" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01TimeChanged32Bit" HwdResource="IO" Description-de="Nettime der letzten Encoderwertänderung" Description-en="Nettime of last encoder value change">
+			<Filter Value="FunctionModel='Standard' AND CounterTimeInfo='32Bit'"/>
+			<Parameter ID="Name" Value="Encoder01TimeChanged" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18b4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="DINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Dint" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01Latch_32Bit" HwdResource="IO" Description-de="Gelatchter Encoderwert" Description-en="Latched encoder value">
+			<Filter Value="FunctionModel='Standard' AND CounterStd01='32Bit' AND ((LatchMode='single') OR (LatchMode='continuous'))"/>
+			<Parameter ID="Name" Value="Encoder01Latch" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18d4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="DINT" Type="STRING"/>
+			<Parameter ID="Sig_Counter_Dint" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01Latch_16Bit" HwdResource="IO" Description-de="Gelatchter Encoderwert" Description-en="Latched encoder value">
+			<Filter Value="FunctionModel='Standard' AND CounterStd01='16Bit' AND ((LatchMode='single') OR (LatchMode='continuous'))"/>
+			<Parameter ID="Name" Value="Encoder01Latch" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18d6" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Parameter ID="Sig_Counter_Int" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01Latch_16Bit_CANIO" HwdResource="IO" Description-de="Gelatchter Encoderwert" Description-en="Latched encoder value">
+			<Filter Value="FunctionModel='CANIOBusController' AND ((LatchMode='single') OR (LatchMode='continuous'))"/>
+			<Parameter ID="Name" Value="Encoder01Latch" Type="STRING"/>
+			<Parameter ID="Address" Value="4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Parameter ID="Sig_Counter_Int" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01LatchCount" HwdResource="IO" Description-de="Anzahl der Latch-Ereignisse" Description-en="Number of latch events">
+			<Filter Value="((FunctionModel='Standard') OR (FunctionModel='CANIOBusController')) AND ((LatchMode='single') OR (LatchMode='continuous'))"/>
+			<Parameter ID="Ext" Value="/PSEUDOCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x189f" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="SINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Sint" Value="1" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="Encoder01Reset" HwdResource="IO" Description-de="Encoderwert löschen" Description-en="Clear encoder value">
+			<Filter Value="FunctionModel='Standard'"/>
+			<Parameter ID="Address" Value="0x1809" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01Reset_CANIO" HwdResource="IO" Description-de="Encoderwert löschen" Description-en="Clear encoder value">
+			<Filter Value="FunctionModel='CANIOBusController'"/>
+			<Parameter ID="Name" Value="Encoder01Reset" Type="STRING"/>
+			<Parameter ID="Address" Value="1" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01LatchEnable" HwdResource="IO" Description-de="De-/aktiviere Latch" Description-en="Dis-/enable latch">
+			<Filter Value="FunctionModel='Standard' AND ((LatchMode='single') OR (LatchMode='continuous'))"/>
+			<Parameter ID="Address" Value="0x1809" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01LatchEnable_CANIO" HwdResource="IO" Description-de="De-/aktiviere Latch" Description-en="Dis-/enable latch">
+			<Filter Value="FunctionModel='CANIOBusController' AND ((LatchMode='single') OR (LatchMode='continuous'))"/>
+			<Parameter ID="Name" Value="Encoder01LatchEnable" Type="STRING"/>
+			<Parameter ID="Address" Value="1" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="Encoder01_A" HwdResource="IO" Description-de="24 VDC, &lt;1,67 us Schaltverzögerung, differentiell" Description-en="24 VDC, &lt;1.67 us switching delay, differential" Description-fr="24 VDC, retard de commutation 1,67 us">
+			<Filter Value="FunctionModel='Standard' AND ABRInputs='on'"/>
+			<Parameter ID="Address" Value="0x039f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_Dig_5VDC" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01_B" HwdResource="IO" Description-de="24 VDC, &lt;1,67 us Schaltverzögerung, differentiell" Description-en="24 VDC, &lt;1.67 us switching delay, differential" Description-fr="24 VDC, retard de commutation 1,67 us">
+			<Filter Value="FunctionModel='Standard' AND ABRInputs='on'"/>
+			<Parameter ID="Address" Value="0x039f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_Dig_5VDC" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01_R" HwdResource="IO" Description-de="24 VDC, &lt;1,67 us Schaltverzögerung, differentiell" Description-en="24 VDC, &lt;1.67 us switching delay, differential" Description-fr="24 VDC, retard de commutation 1,67 us">
+			<Filter Value="FunctionModel='Standard' AND ABRInputs='on'"/>
+			<Parameter ID="Address" Value="0x039f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_Dig_5VDC" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="DigitalInput01" HwdResource="IO" Description-de="24 VDC, &lt;2 us Schaltverzögerung, Sink" Description-en="24 VDC, &lt;2 us switching delay, sink" Description-fr="24 VDC, retard de commutation 2 us">
+			<Filter Value="FunctionModel='Standard'"/>
+			<Parameter ID="Address" Value="0x039f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_Dig_24VDC" Value="1" Type="STRING"/>
+			<Pin Number="14" Name="DI-01" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="DigitalInput02" HwdResource="IO" Description-de="24 VDC, &lt;2 us Schaltverzögerung, Sink" Description-en="24 VDC, &lt;2 us switching delay, sink" Description-fr="24 VDC, retard de commutation 2 us">
+			<Filter Value="FunctionModel='Standard'"/>
+			<Parameter ID="Address" Value="0x039f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="5" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_Dig_24VDC" Value="1" Type="STRING"/>
+			<Pin Number="24" Name="DI-02" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="Encoder01_A_CANIO" HwdResource="IO" Description-de="24 VDC, &lt;1,67 us Schaltverzögerung, differentiell" Description-en="24 VDC, &lt;1.67 us switching delay, differential" Description-fr="24 VDC, retard de commutation 1,67 us">
+			<Filter Value="FunctionModel='CANIOBusController' AND ABRInputs='on'"/>
+			<Parameter ID="Name" Value="Encoder01_A" Type="STRING"/>
+			<Parameter ID="Address" Value="7" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_Dig_5VDC" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01_B_CANIO" HwdResource="IO" Description-de="24 VDC, &lt;1,67 us Schaltverzögerung, differentiell" Description-en="24 VDC, &lt;1.67 us switching delay, differential" Description-fr="24 VDC, retard de commutation 1,67 us">
+			<Filter Value="FunctionModel='CANIOBusController' AND ABRInputs='on'"/>
+			<Parameter ID="Name" Value="Encoder01_B" Type="STRING"/>
+			<Parameter ID="Address" Value="7" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_Dig_5VDC" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01_R_CANIO" HwdResource="IO" Description-de="24 VDC, &lt;1,67 us Schaltverzögerung, differentiell" Description-en="24 VDC, &lt;1.67 us switching delay, differential" Description-fr="24 VDC, retard de commutation 1,67 us">
+			<Filter Value="FunctionModel='CANIOBusController' AND ABRInputs='on'"/>
+			<Parameter ID="Name" Value="Encoder01_R" Type="STRING"/>
+			<Parameter ID="Address" Value="7" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_Dig_5VDC" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="DigitalInput01_CANIO" HwdResource="IO" Description-de="24 VDC, &lt;2 us Schaltverzögerung, Sink" Description-en="24 VDC, &lt;2 us switching delay, sink" Description-fr="24 VDC, retard de commutation 2 us">
+			<Filter Value="FunctionModel='CANIOBusController'"/>
+			<Parameter ID="Name" Value="DigitalInput01" Type="STRING"/>
+			<Parameter ID="Address" Value="7" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_Dig_24VDC" Value="1" Type="STRING"/>
+			<Pin Number="14" Name="DI-01" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="DigitalInput02_CANIO" HwdResource="IO" Description-de="24 VDC, &lt;2 us Schaltverzögerung, Sink" Description-en="24 VDC, &lt;2 us switching delay, sink" Description-fr="24 VDC, retard de commutation 2 us">
+			<Filter Value="FunctionModel='CANIOBusController'"/>
+			<Parameter ID="Name" Value="DigitalInput02" Type="STRING"/>
+			<Parameter ID="Address" Value="7" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="5" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_Dig_24VDC" Value="1" Type="STRING"/>
+			<Pin Number="24" Name="DI-02" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="BW_Channel_A" HwdResource="IO" Description-de="Drahtbruchfehler Kanal A" Description-en="Broken wire error channel A">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel01='timer0'"/>
+			<Parameter ID="Address" Value="0x034f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_QuitChannel_A" HwdResource="IO" Description-de="Quittiere Drahtbruchfehler Kanal A" Description-en="Acknowledge broken wire error channel A">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel01='timer0'"/>
+			<Parameter ID="Address" Value="0x032b" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_Channel_B" HwdResource="IO" Description-de="Drahtbruchfehler Kanal B" Description-en="Broken wire error channel B">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel02='timer0'"/>
+			<Parameter ID="Address" Value="0x034f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_QuitChannel_B" HwdResource="IO" Description-de="Quittiere Drahtbruchfehler Kanal B" Description-en="Acknowledge broken wire error channel B">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel02='timer0'"/>
+			<Parameter ID="Address" Value="0x032b" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_Channel_R" HwdResource="IO" Description-de="Drahtbruchfehler Kanal R" Description-en="Broken wire error channel R">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel03='timer0'"/>
+			<Parameter ID="Address" Value="0x034f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_QuitChannel_R" HwdResource="IO" Description-de="Quittiere Drahtbruchfehler Kanal R" Description-en="Acknowledge broken wire error channel R">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel03='timer0'"/>
+			<Parameter ID="Address" Value="0x032b" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_Channel_A_CANIO" HwdResource="IO" Description-de="Drahtbruchfehler Kanal A" Description-en="Broken wire error channel A">
+			<Filter Value="FunctionModel='CANIOBusController' AND BWConfigChannel01='timer0'"/>
+			<Parameter ID="Name" Value="BW_Channel_A" Type="STRING"/>
+			<Parameter ID="Address" Value="6" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_QuitChannel_A_CANIO" HwdResource="IO" Description-de="Quittiere Drahtbruchfehler Kanal A" Description-en="Acknowledge broken wire error channel A">
+			<Filter Value="FunctionModel='CANIOBusController' AND BWConfigChannel01='timer0'"/>
+			<Parameter ID="Name" Value="BW_QuitChannel_A" Type="STRING"/>
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_Channel_B_CANIO" HwdResource="IO" Description-de="Drahtbruchfehler Kanal B" Description-en="Broken wire error channel B">
+			<Filter Value="FunctionModel='CANIOBusController' AND BWConfigChannel02='timer0'"/>
+			<Parameter ID="Name" Value="BW_Channel_B" Type="STRING"/>
+			<Parameter ID="Address" Value="6" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_QuitChannel_B_CANIO" HwdResource="IO" Description-de="Quittiere Drahtbruchfehler Kanal B" Description-en="Acknowledge broken wire error channel B">
+			<Filter Value="FunctionModel='CANIOBusController' AND BWConfigChannel02='timer0'"/>
+			<Parameter ID="Name" Value="BW_QuitChannel_B" Type="STRING"/>
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_Channel_R_CANIO" HwdResource="IO" Description-de="Drahtbruchfehler Kanal R" Description-en="Broken wire error channel R">
+			<Filter Value="FunctionModel='CANIOBusController' AND BWConfigChannel03='timer0'"/>
+			<Parameter ID="Name" Value="BW_Channel_R" Type="STRING"/>
+			<Parameter ID="Address" Value="6" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_QuitChannel_R_CANIO" HwdResource="IO" Description-de="Quittiere Drahtbruchfehler Kanal R" Description-en="Acknowledge broken wire error channel R">
+			<Filter Value="FunctionModel='CANIOBusController' AND BWConfigChannel03='timer0'"/>
+			<Parameter ID="Name" Value="BW_QuitChannel_R" Type="STRING"/>
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="PowerSupply01" HwdResource="IO" Description-de="Status Geberversorgung 24 VDC (0 = DC OK)" Description-en="Status encoder supply 24 VDC (0 = DC OK)">
+			<Filter Value="FunctionModel='Standard' OR FunctionModel='CANIOBusController'"/>
+			<Parameter ID="Ext" Value="/PSEUDOCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x034b" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="CfO_PhyIOConfigCh01" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0301" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_PhyIOConfigCh02" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0303" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_PhyIOConfigCh03" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0305" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_PhyIOConfigCh04" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0309" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_PhyIOConfigCh05" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x030b" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_SystemCycleTime" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0282" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_CounterCycleSelect" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x1801" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_CounterMode" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x1803" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_LatchMode" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x1805" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_LatchComparator" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x1807" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_SIframeGenID" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0201" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_BWQuitTimeSelChannel7_0" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x032f" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_BWQuitTime_0" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0334" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="UDINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_BWCNTEnableMaskChannel7_0" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x180f" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Include File="ChannelsX2XS" HwdResource="IO"/>
+	</Channels>
+	<Channels Target="SGC">
+		<Channel ID="ModuleOk" HwdResource="IO" Description-de="Modul Status (1 = Modul gesteckt)" Description-en="Module status (1 = module present)" Description-fr="Etat module (1 = module présent)">
+			<Parameter ID="Ext" Value="/OK" Type="STRING"/>
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="StaleData" HwdResource="IO" Description-de="Daten stammen nicht aus aktuellem Zyklus" Description-en="Data not from latest cycle">
+			<Filter Value="ModuleInfo='on'"/>
+			<Parameter ID="Ext" Value="/OK" Type="STRING"/>
+			<Parameter ID="Address" Value="0" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="SerialNumber" HwdResource="IO" Description-de="Seriennummer" Description-en="Serial number">
+			<Filter Value="ModuleInfo='on'"/>
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UDINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="ModuleID" HwdResource="IO" Description-de="Modulkennung" Description-en="Module ID">
+			<Filter Value="ModuleInfo='on'"/>
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="10" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="HardwareVariant" HwdResource="IO" Description-de="Hardware Variante" Description-en="Hardware variant">
+			<Filter Value="ModuleInfo='on'"/>
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="12" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="FirmwareVersion" HwdResource="IO" Description-de="Firmware Version" Description-en="Firmware version">
+			<Filter Value="ModuleInfo='on'"/>
+			<Parameter ID="Ext" Value="/INFO" Type="STRING"/>
+			<Parameter ID="Address" Value="14" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="SDCLifeCount" HwdResource="IO" Description-de="SDC life count" Description-en="SDC life count">
+			<Filter Value="FunctionModel='Standard' AND SDCInfo='on'"/>
+			<Parameter ID="Address" Value="0x02ab" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="SINT" Type="STRING"/>
+			<Parameter ID="Sig_St_Sint" Value="1" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="Encoder01_32Bit" HwdResource="IO" Description-de="Inkrementalgeber, Eingangsfrequenz max. 300 kHz" Description-en="Incremental encoder, input frequency max. 300 kHz">
+			<Filter Value="FunctionModel='Standard' AND CounterStd01='32Bit'"/>
+			<Parameter ID="Name" Value="Encoder01" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18c4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="DINT" Type="STRING"/>
+			<Pin Number="11" Name="CA-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="12" Name="CB-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="13" Name="CR-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="21" Name="CA-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="22" Name="CB-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="23" Name="CR-01/" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="Encoder01_16Bit" HwdResource="IO" Description-de="Inkrementalgeber, Eingangsfrequenz max. 300 kHz" Description-en="Incremental encoder, input frequency max. 300 kHz">
+			<Filter Value="FunctionModel='Standard' AND CounterStd01='16Bit'"/>
+			<Parameter ID="Name" Value="Encoder01" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18c6" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+			<Pin Number="11" Name="CA-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="12" Name="CB-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="13" Name="CR-01" Terminal="X1" IoType="Digital"/>
+			<Pin Number="21" Name="CA-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="22" Name="CB-01/" Terminal="X1" IoType="Digital"/>
+			<Pin Number="23" Name="CR-01/" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="Encoder01TimeValid16Bit" HwdResource="IO" Description-de="Nettime des letzten gültigen Encoderwertes" Description-en="Nettime of last valid encoder value">
+			<Filter Value="FunctionModel='Standard' AND CounterTimeInfo='16Bit'"/>
+			<Parameter ID="Name" Value="Encoder01TimeValid" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18a6" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01TimeValid32Bit" HwdResource="IO" Description-de="Nettime des letzten gültigen Encoderwertes" Description-en="Nettime of last valid encoder value">
+			<Filter Value="FunctionModel='Standard' AND CounterTimeInfo='32Bit'"/>
+			<Parameter ID="Name" Value="Encoder01TimeValid" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18a4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="DINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01TimeChanged16Bit" HwdResource="IO" Description-de="Nettime der letzten Encoderwertänderung" Description-en="Nettime of last encoder value change">
+			<Filter Value="FunctionModel='Standard' AND CounterTimeInfo='16Bit'"/>
+			<Parameter ID="Name" Value="Encoder01TimeChanged" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18b6" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="Encoder01TimeChanged32Bit" HwdResource="IO" Description-de="Nettime der letzten Encoderwertänderung" Description-en="Nettime of last encoder value change">
+			<Filter Value="FunctionModel='Standard' AND CounterTimeInfo='32Bit'"/>
+			<Parameter ID="Name" Value="Encoder01TimeChanged" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18b4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="DINT" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="Encoder01Latch_32Bit" HwdResource="IO" Description-de="Gelatchter Encoderwert" Description-en="Latched encoder value">
+			<Filter Value="FunctionModel='Standard' AND CounterStd01='32Bit' AND ((LatchMode='single') OR (LatchMode='continuous'))"/>
+			<Parameter ID="Name" Value="Encoder01Latch" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18d4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="DINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01Latch_16Bit" HwdResource="IO" Description-de="Gelatchter Encoderwert" Description-en="Latched encoder value">
+			<Filter Value="FunctionModel='Standard' AND CounterStd01='16Bit' AND ((LatchMode='single') OR (LatchMode='continuous'))"/>
+			<Parameter ID="Name" Value="Encoder01Latch" Type="STRING"/>
+			<Parameter ID="Address" Value="0x18d6" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="INT" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01LatchCount" HwdResource="IO" Description-de="Anzahl der Latch-Ereignisse" Description-en="Number of latch events">
+			<Filter Value="FunctionModel='Standard' AND ((LatchMode='single') OR (LatchMode='continuous'))"/>
+			<Parameter ID="Address" Value="0x189f" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="SINT" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="Encoder01Reset" HwdResource="IO" Description-de="Encoderwert löschen" Description-en="Clear encoder value">
+			<Filter Value="FunctionModel='Standard'"/>
+			<Parameter ID="Address" Value="0x1809" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01LatchEnable" HwdResource="IO" Description-de="De-/aktiviere Latch" Description-en="Dis-/enable latch">
+			<Filter Value="FunctionModel='Standard' AND ((LatchMode='single') OR (LatchMode='continuous'))"/>
+			<Parameter ID="Address" Value="0x1809" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01_A" HwdResource="IO" Description-de="24 VDC, &lt;1,67 us Schaltverzögerung, differentiell" Description-en="24 VDC, &lt;1.67 us switching delay, differential" Description-fr="24 VDC, retard de commutation 1,67 us">
+			<Filter Value="FunctionModel='Standard' AND ABRInputs='on'"/>
+			<Parameter ID="Address" Value="0x039f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01_B" HwdResource="IO" Description-de="24 VDC, &lt;1,67 us Schaltverzögerung, differentiell" Description-en="24 VDC, &lt;1.67 us switching delay, differential" Description-fr="24 VDC, retard de commutation 1,67 us">
+			<Filter Value="FunctionModel='Standard' AND ABRInputs='on'"/>
+			<Parameter ID="Address" Value="0x039f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="Encoder01_R" HwdResource="IO" Description-de="24 VDC, &lt;1,67 us Schaltverzögerung, differentiell" Description-en="24 VDC, &lt;1.67 us switching delay, differential" Description-fr="24 VDC, retard de commutation 1,67 us">
+			<Filter Value="FunctionModel='Standard' AND ABRInputs='on'"/>
+			<Parameter ID="Address" Value="0x039f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="DigitalInput01" HwdResource="IO" Description-de="24 VDC, &lt;2 us Schaltverzögerung, Sink" Description-en="24 VDC, &lt;2 us switching delay, sink" Description-fr="24 VDC, retard de commutation 2 us">
+			<Filter Value="FunctionModel='Standard'"/>
+			<Parameter ID="Address" Value="0x039f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="4" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Pin Number="14" Name="DI-01" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="DigitalInput02" HwdResource="IO" Description-de="24 VDC, &lt;2 us Schaltverzögerung, Sink" Description-en="24 VDC, &lt;2 us switching delay, sink" Description-fr="24 VDC, retard de commutation 2 us">
+			<Filter Value="FunctionModel='Standard'"/>
+			<Parameter ID="Address" Value="0x039f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="5" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Pin Number="24" Name="DI-02" Terminal="X1" IoType="Digital"/>
+		</Channel>
+		<Channel ID="BW_Channel_A" HwdResource="IO" Description-de="Drahtbruchfehler Kanal A" Description-en="Broken wire error channel A">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel01='timer0'"/>
+			<Parameter ID="Address" Value="0x034f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_QuitChannel_A" HwdResource="IO" Description-de="Quittiere Drahtbruchfehler Kanal A" Description-en="Acknowledge broken wire error channel A">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel01='timer0'"/>
+			<Parameter ID="Address" Value="0x032b" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_Channel_B" HwdResource="IO" Description-de="Drahtbruchfehler Kanal B" Description-en="Broken wire error channel B">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel02='timer0'"/>
+			<Parameter ID="Address" Value="0x034f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_QuitChannel_B" HwdResource="IO" Description-de="Quittiere Drahtbruchfehler Kanal B" Description-en="Acknowledge broken wire error channel B">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel02='timer0'"/>
+			<Parameter ID="Address" Value="0x032b" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="1" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_Channel_R" HwdResource="IO" Description-de="Drahtbruchfehler Kanal R" Description-en="Broken wire error channel R">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel03='timer0'"/>
+			<Parameter ID="Address" Value="0x034f" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="BW_QuitChannel_R" HwdResource="IO" Description-de="Quittiere Drahtbruchfehler Kanal R" Description-en="Acknowledge broken wire error channel R">
+			<Filter Value="FunctionModel='Standard' AND BWConfigChannel03='timer0'"/>
+			<Parameter ID="Address" Value="0x032b" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="2" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+		</Channel>
+		<Channel ID="PowerSupply01" HwdResource="IO" Description-de="Status Geberversorgung 24 VDC (0 = DC OK)" Description-en="Status encoder supply 24 VDC (0 = DC OK)">
+			<Filter Value="FunctionModel='Standard'"/>
+			<Parameter ID="Address" Value="0x034b" Type="UDINT"/>
+			<Parameter ID="BitOffset" Value="0" Type="UDINT"/>
+			<Parameter ID="Direction" Value="IN" Type="STRING"/>
+			<Parameter ID="Type" Value="BOOL" Type="STRING"/>
+			<Parameter ID="Sig_St_Bool" Value="1" Type="STRING"/>
+		</Channel>
+		<Separator/>
+		<Channel ID="CfO_PhyIOConfigCh01" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0301" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_PhyIOConfigCh02" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0303" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_PhyIOConfigCh03" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0305" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_PhyIOConfigCh04" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0309" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_PhyIOConfigCh05" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x030b" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_SystemCycleTime" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0282" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="UINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_CounterCycleSelect" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x1801" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_CounterMode" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x1803" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_LatchMode" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x1805" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_LatchComparator" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x1807" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_SIframeGenID" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0201" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_BWQuitTimeSelChannel7_0" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x032f" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_BWQuitTime_0" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x0334" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="UDINT" Type="STRING"/>
+		</Channel>
+		<Channel ID="CfO_BWCNTEnableMaskChannel7_0" HwdResource="IO">
+			<Filter Value="IS_RUNTIME='1'"/>
+			<Parameter ID="Ext" Value="/NOTCYCLIC" Type="STRING"/>
+			<Parameter ID="Address" Value="0x180f" Type="UDINT"/>
+			<Parameter ID="Direction" Value="OUT" Type="STRING"/>
+			<Parameter ID="Type" Value="USINT" Type="STRING"/>
+		</Channel>
+	</Channels>
+	<Classification>
+		<EncoderType Value="Incremental"/>
+		<HardwareModuleFamily Value="X20"/>
+		<HardwareModuleType Value="IO"/>
+		<HardwareModuleType Value="Encoder"/>
+		<IOType Value="Counter"/>
+	</Classification>
+	<Connectors>
+		<Connector Name="SS1" Male="true" Type="Plug">
+			<AutoConnect ModuleID="X20TB12" ConnectorName="SS"/>
+			<Connections>
+				<Connection Name="X20Terminal"/>
+			</Connections>
+			<Layout PositionX="0" PositionY="27"/>
+		</Connector>
+		<Connector Name="SL" AddressRule="AsContainer" Back="true" Male="true" Type="Plug">
+			<AutoConnect ModuleID="X20BM11" ConnectorName="SL1"/>
+			<Connections>
+				<Connection Name="X20Electronic"/>
+			</Connections>
+			<Layout PositionX="3" PositionY="7"/>
+		</Connector>
+	</Connectors>
+	<Editors>
+		<Editor Name="IoMapping"/>
+		<Editor Name="Configuration" Target="SG4"/>
+		<Editor Name="Configuration" Target="SGC"/>
+	</Editors>
+	<Firmware Folder="X20DC137A">
+		<Target FromVersion="V2.92" Name="SG4" SubFolder="1"/>
+		<Target FromVersion="V2.00" Name="SGC" SubFolder="1"/>
+	</Firmware>
+	<HWD>
+		<Parameter ID="NeededBus" Value="X2X"/>
+		<Parameter ID="InsertParameter" Value="ARIOMasterBus"/>
+		<Parameter ID="X2XNodeType" Value="STANDARD"/>
+		<Parameter ID="RemoteUpdate" Value="1" Type="UDINT"/>
+		<Parameter ID="CanioUsetyp" Value="16" Type="UDINT"/>
+		<Parameter ID="CanioLogicalWidth" Value="1" Type="UDINT"/>
+		<Resource ID="IO">
+			<Parameter ID="Classcode" Value="0x2000000d" Type="UDINT"/>
+			<Parameter ID="InitScript" Value="       write(CfO_SIframeGenID, 0x09);       write(CfO_SystemCycleTime, 100&lt;&lt;3);       write(CfO_PhyIOConfigCh01, 0x00);       write(CfO_PhyIOConfigCh02, 0x00);       write(CfO_PhyIOConfigCh03, 0x00);       write(CfO_PhyIOConfigCh04, 0x00);       write(CfO_PhyIOConfigCh05, 0x00);       write(CfO_CounterCycleSelect, 0x02);       write(CfO_CounterMode, 0x03);       write(CfO_LatchMode, 0x00       | LatchMode==&quot;continuous&quot;   ? 0x01 : 0x00);       write(CfO_LatchComparator, 0x00       | CounterCmp01==&quot;low&quot;    ? 0x10 : 0x00       | CounterCmp01==&quot;high&quot;   ? 0x11 : 0x00       | CounterCmp02==&quot;low&quot;    ? 0x20 : 0x00       | CounterCmp02==&quot;high&quot;   ? 0x22 : 0x00       | CounterCmp03==&quot;low&quot;    ? 0x40 : 0x00       | CounterCmp03==&quot;high&quot;   ? 0x44 : 0x00       | CounterCmp04==&quot;low&quot;    ? 0x80 : 0x00       | CounterCmp04==&quot;high&quot;   ? 0x88 : 0x00);       if (BrokenWireConfig==&quot;on&quot;)       {         write(CfO_BWQuitTime_0, BWTimer0&lt;&lt;10);         write(CfO_BWQuitTimeSelChannel7_0, 0x00);         write(CfO_BWCNTEnableMaskChannel7_0, 0x00         | BWConfigChannel01==&quot;timer0&quot;     ? 0x01 : 0x00         | BWConfigChannel02==&quot;timer0&quot;     ? 0x02 : 0x00         | BWConfigChannel03==&quot;timer0&quot;     ? 0x04 : 0x00);       }"/>
+		</Resource>
+	</HWD>
+	<Images>
+		<Image Type="FrontFoto" Name="X20DC137A.front.png"/>
+		<Image Type="Icon" Name="hw_x20di.ico"/>
+	</Images>
+	<Properties Target="SG4">
+		<Selector ID="FunctionModel" Name-en="Function model" Name-de="Funktionsmodell" Name-fr="Modèle fonctionnel" Description-en="Module operating mode" Description-de="Arbeitsweise des Moduls" Description-fr="Mode de fonctionnement du module" Value="Standard" ArConfigResource="IO">
+			<Selection ID="Standard" Name-en="default" Name-de="Standard">
+				<Parameter ID="FunctionModelNumber" Value="0" Type="USINT" CanEdit="false" Visible="false"/>
+				<Group ID="General" Name-en="General" Name-de="Allgemein" Name-fr="Général">
+					<Parameter ID="Supervision" Name-en="Module supervised" Name-de="Modulüberwachung" Name-fr="Surveillance module" Value="on" Description-en="Service mode if there is no hardware module" Description-de="Service Mode auslösen, wenn Modul nicht vorhanden ist" Description-fr="Mode service si module absent" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+					<Parameter ID="ModuleInfo" Name-en="Module information" Name-de="Modulinformation" Value="off" Description-en="Additional module information" Description-de="Zusätzliche Modulinformation" ToVersion="Z3.07" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+					<Parameter ID="SDCInfo" Name-en="SDC information" Name-de="SDC Information" Value="off" Description-en="Additional SDC information" Description-de="Zusätzliche SDC Information" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+				</Group>
+				<Group ID="Counter01" Name-en="Configuration incremental encoder 01" Name-de="Konfiguration Inkrementalgeber 01">
+					<Parameter ID="CounterStd01" Name-en="Data format" Name-de="Datenformat" Value="16Bit" Description-en="Select data format" Description-de="Auswahl Datenformat" Type="STRING">
+						<ComboBox>
+							<Item ID="16Bit" Name-en="16 bit" Name-de="16 Bit"/>
+							<Item ID="32Bit" Name-en="32 bit" Name-de="32 Bit"/>
+						</ComboBox>
+					</Parameter>
+					<Parameter ID="CounterTimeInfo" Name-en="Time information format" Name-de="Format Zeitinformation" Value="off" Description-en="Display time information" Description-de="Anzeige Zeitinformation" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus"/>
+							<Item ID="16Bit" Name-en="16 bit" Name-de="16 Bit"/>
+							<Item ID="32Bit" Name-en="32 bit" Name-de="32 Bit"/>
+						</ComboBox>
+					</Parameter>
+					<Group ID="LatchConfiguration" Name-en="Latch configuration" Name-de="Latch Konfiguration">
+						<Selector ID="LatchMode" Name-en="Latch mode" Name-de="Latch Modus" Value="off" Description-en="Select latch mode" Description-de="Auswahl Latch Modus">
+							<Selection ID="off" Name-en="off" Name-de="Aus"/>
+							<Selection ID="single" Name-en="single-shot" Name-de="einmalig">
+								<Parameter ID="CounterCmp01" Name-en="Latch level channel A" Name-de="Latch-Pegel Kanal A" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp02" Name-en="Latch level channel B" Name-de="Latch-Pegel Kanal B" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp03" Name-en="Latch level channel R" Name-de="Latch-Pegel Kanal R" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp04" Name-en="Latch level channel 01" Name-de="Latch-Pegel Kanal 01" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+							</Selection>
+							<Selection ID="continuous" Name-en="continuous" Name-de="kontinuierlich">
+								<Parameter ID="CounterCmp01" Name-en="Latch level channel A" Name-de="Latch-Pegel Kanal A" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp02" Name-en="Latch level channel B" Name-de="Latch-Pegel Kanal B" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp03" Name-en="Latch level channel R" Name-de="Latch-Pegel Kanal R" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp04" Name-en="Latch level channel 01" Name-de="Latch-Pegel Kanal 01" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+							</Selection>
+						</Selector>
+					</Group>
+					<Parameter ID="ABRInputs" Name-en="ABR channels" Name-de="ABR Kanäle" Value="off" Description-en="Display digital status of the ABR channels" Description-de="Anzeige des digitalen Status der ABR Kanäle" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+				</Group>
+				<Group ID="Diagnostics" Name-en="Diagnostics" Name-de="Diagnose">
+					<Selector ID="BrokenWireConfig" Name-en="Broken wire detection configuration" Name-de="Konfiguration Drahtbrucherkennung" Value="on" Description-en="De-/activate broken wire detection" Description-de="Drahtbrucherkennung aus-/einschalten">
+						<Selection ID="off" Name-en="off" Name-de="Aus"/>
+						<Selection ID="on" Name-en="on" Name-de="Ein">
+							<Parameter ID="BWConfigChannel01" Name-en="Configuration Channel A" Name-de="Konfiguration Kanal A" Value="timer0" Description-en="Activate detection with timer selection" Description-de="Kanalüberwachung aktivieren mit Timerauswahl" Type="STRING">
+								<ComboBox>
+									<Item ID="off" Name-en="off" Name-de="Aus"/>
+									<Item ID="timer0" Name-en="Timer" Name-de="Timer"/>
+								</ComboBox>
+							</Parameter>
+							<Parameter ID="BWConfigChannel02" Name-en="Configuration Channel B" Name-de="Konfiguration Kanal B" Value="timer0" Description-en="Activate detection with timer selection" Description-de="Kanalüberwachung aktivieren mit Timerauswahl" Type="STRING">
+								<ComboBox>
+									<Item ID="off" Name-en="off" Name-de="Aus"/>
+									<Item ID="timer0" Name-en="Timer" Name-de="Timer"/>
+								</ComboBox>
+							</Parameter>
+							<Parameter ID="BWConfigChannel03" Name-en="Configuration Channel R" Name-de="Konfiguration Kanal R" Value="timer0" Description-en="Activate detection with timer selection" Description-de="Kanalüberwachung aktivieren mit Timerauswahl" Type="STRING">
+								<ComboBox>
+									<Item ID="off" Name-en="off" Name-de="Aus"/>
+									<Item ID="timer0" Name-en="Timer" Name-de="Timer"/>
+								</ComboBox>
+							</Parameter>
+							<Parameter ID="BWTimer0" Name-en="Timer" Name-de="Timer" Value="0" Description-en="Adjustment automatic acknowledge time [msec]; 0 = infinite" Description-de="Einstellung automatische Quittierzeit [msec]; 0 = unendlich" Type="UDINT" Range="0-10000"/>
+						</Selection>
+					</Selector>
+				</Group>
+				<Group ID="Simulation" Name-en="Simulation" Name-de="Simulation" Name-fr="Simulation" ArConfigResource="%NONE%">
+					<Parameter ID="SimSlave" Name-en="Simulation device" Name-de="Simulationsgerät" Name-fr="Simulation device" Description-en="Assigned simulation device" Description-de="Zugeordnetes Simulationsgerät" Description-fr="Assigned simulation device" Type="STRING"/>
+				</Group>
+				<Group ID="IOImage" Name-en="I/O Image" Name-de="I/O Bereich" FromVersion="A8.00" Filter="%CpuRuntimeVersion%GT='A4.00' AND CPU::$IOOffsetAssignment$='on'" ArConfigResource="IO">
+					<Parameter ID="InOffset" Name-en="Offset for inputs" Name-de="Offset für Eingänge" Value="0" Description-en="Offset is relative to base address of master interface" Description-de="Offset ist relativ zur Basisadresse der Masterschnittstelle" Type="UDINT"/>
+					<Parameter ID="OutOffset" Name-en="Offset for outputs" Name-de="Offset für Ausgänge" Value="0" Description-en="Offset is relative to base address of master interface" Description-de="Offset ist relativ zur Basisadresse der Masterschnittstelle" Type="UDINT"/>
+				</Group>
+			</Selection>
+			<Selection ID="CANIOBusController" Name-en="CANIO Bus Controller" Name-de="CANIO Bus Controller">
+				<Parameter ID="FunctionModelNumber" Value="0" Type="USINT" CanEdit="false" Visible="false"/>
+				<Group ID="General" Name-en="General" Name-de="Allgemein" Name-fr="Général">
+					<Parameter ID="Supervision" Name-en="Module supervised" Name-de="Modulüberwachung" Name-fr="Surveillance module" Value="on" Description-en="Service mode if there is no hardware module" Description-de="Service Mode auslösen, wenn Modul nicht vorhanden ist" Description-fr="Mode service si module absent" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+					<Parameter ID="ModuleInfo" Name-en="Module information" Name-de="Modulinformation" Value="off" Description-en="Additional module information" Description-de="Zusätzliche Modulinformation" ToVersion="Z3.07" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+				</Group>
+				<Group ID="Counter01" Name-en="Configuration incremental encoder 01" Name-de="Konfiguration Inkrementalgeber 01">
+					<Parameter ID="CounterStd01" Name-en="Data format" Name-de="Datenformat" Value="16Bit" Description-en="Data format" Description-de="Datenformat" Type="STRING" CanEdit="false">
+						<ComboBox>
+							<Item ID="16Bit" Name-en="16 bit" Name-de="16 Bit"/>
+						</ComboBox>
+					</Parameter>
+					<Parameter ID="CounterTimeInfo" Name-en="Time information format" Name-de="Format Zeitinformation" Value="off" Description-en="Display time information" Description-de="Anzeige Zeitinformation" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus"/>
+							<Item ID="16Bit" Name-en="16 bit" Name-de="16 Bit"/>
+						</ComboBox>
+					</Parameter>
+					<Group ID="LatchConfiguration" Name-en="Latch configuration" Name-de="Latch Konfiguration">
+						<Selector ID="LatchMode" Name-en="Latch mode" Name-de="Latch Modus" Value="off" Description-en="Select latch mode" Description-de="Auswahl Latch Modus">
+							<Selection ID="off" Name-en="off" Name-de="Aus"/>
+							<Selection ID="single" Name-en="single-shot" Name-de="einmalig">
+								<Parameter ID="CounterCmp01" Name-en="Latch level channel A" Name-de="Latch-Pegel Kanal A" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp02" Name-en="Latch level channel B" Name-de="Latch-Pegel Kanal B" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp03" Name-en="Latch level channel R" Name-de="Latch-Pegel Kanal R" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp04" Name-en="Latch level channel 01" Name-de="Latch-Pegel Kanal 01" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+							</Selection>
+							<Selection ID="continuous" Name-en="continuous" Name-de="kontinuierlich">
+								<Parameter ID="CounterCmp01" Name-en="Latch level channel A" Name-de="Latch-Pegel Kanal A" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp02" Name-en="Latch level channel B" Name-de="Latch-Pegel Kanal B" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp03" Name-en="Latch level channel R" Name-de="Latch-Pegel Kanal R" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp04" Name-en="Latch level channel 01" Name-de="Latch-Pegel Kanal 01" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+							</Selection>
+						</Selector>
+					</Group>
+					<Parameter ID="ABRInputs" Name-en="ABR channels" Name-de="ABR Kanäle" Value="off" Description-en="Display digital status of the ABR channels" Description-de="Anzeige des digitalen Status der ABR Kanäle" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+				</Group>
+				<Group ID="Diagnostics" Name-en="Diagnostics" Name-de="Diagnose">
+					<Selector ID="BrokenWireConfig" Name-en="Broken wire detection configuration" Name-de="Konfiguration Drahtbrucherkennung" Value="on" Description-en="De-/activate broken wire detection" Description-de="Drahtbrucherkennung aus-/einschalten">
+						<Selection ID="off" Name-en="off" Name-de="Aus"/>
+						<Selection ID="on" Name-en="on" Name-de="Ein">
+							<Parameter ID="BWConfigChannel01" Name-en="Configuration Channel A" Name-de="Konfiguration Kanal A" Value="timer0" Description-en="Activate detection with timer selection" Description-de="Kanalüberwachung aktivieren mit Timerauswahl" Type="STRING">
+								<ComboBox>
+									<Item ID="off" Name-en="off" Name-de="Aus"/>
+									<Item ID="timer0" Name-en="Timer" Name-de="Timer"/>
+								</ComboBox>
+							</Parameter>
+							<Parameter ID="BWConfigChannel02" Name-en="Configuration Channel B" Name-de="Konfiguration Kanal B" Value="timer0" Description-en="Activate detection with timer selection" Description-de="Kanalüberwachung aktivieren mit Timerauswahl" Type="STRING">
+								<ComboBox>
+									<Item ID="off" Name-en="off" Name-de="Aus"/>
+									<Item ID="timer0" Name-en="Timer" Name-de="Timer"/>
+								</ComboBox>
+							</Parameter>
+							<Parameter ID="BWConfigChannel03" Name-en="Configuration Channel R" Name-de="Konfiguration Kanal R" Value="timer0" Description-en="Activate detection with timer selection" Description-de="Kanalüberwachung aktivieren mit Timerauswahl" Type="STRING">
+								<ComboBox>
+									<Item ID="off" Name-en="off" Name-de="Aus"/>
+									<Item ID="timer0" Name-en="Timer" Name-de="Timer"/>
+								</ComboBox>
+							</Parameter>
+							<Parameter ID="BWTimer0" Name-en="Timer" Name-de="Timer" Value="0" Description-en="Adjustment automatic acknowledge time [msec]; 0 = infinite" Description-de="Einstellung automatische Quittierzeit [msec]; 0 = unendlich" Type="UDINT" Range="0-10000"/>
+						</Selection>
+					</Selector>
+				</Group>
+				<Group ID="Simulation" Name-en="Simulation" Name-de="Simulation" Name-fr="Simulation" ArConfigResource="%NONE%">
+					<Parameter ID="SimSlave" Name-en="Simulation device" Name-de="Simulationsgerät" Name-fr="Simulation device" Description-en="Assigned simulation device" Description-de="Zugeordnetes Simulationsgerät" Description-fr="Assigned simulation device" Type="STRING"/>
+				</Group>
+			</Selection>
+		</Selector>
+	</Properties>
+	<Properties Target="SGC">
+		<Selector ID="FunctionModel" Name-en="Function model" Name-de="Funktionsmodell" Name-fr="Modèle fonctionnel" Description-en="Module operating mode" Description-de="Arbeitsweise des Moduls" Description-fr="Mode de fonctionnement du module" Value="Standard" ArConfigResource="IO">
+			<Selection ID="Standard" Name-en="default" Name-de="Standard">
+				<Parameter ID="FunctionModelNumber" Value="0" Type="USINT" CanEdit="false" Visible="false"/>
+				<Group ID="General" Name-en="General" Name-de="Allgemein" Name-fr="Général">
+					<Parameter ID="Supervision" Name-en="Module supervised" Name-de="Modulüberwachung" Name-fr="Surveillance module" Value="on" Description-en="Service mode if there is no hardware module" Description-de="Service Mode auslösen, wenn Modul nicht vorhanden ist" Description-fr="Mode service si module absent" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+					<Parameter ID="ModuleInfo" Name-en="Module information" Name-de="Modulinformation" Value="off" Description-en="Additional module information" Description-de="Zusätzliche Modulinformation" ToVersion="Z3.07" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+					<Parameter ID="SDCInfo" Name-en="SDC information" Name-de="SDC Information" Value="off" Description-en="Additional SDC information" Description-de="Zusätzliche SDC Information" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+				</Group>
+				<Group ID="Counter01" Name-en="Configuration incremental encoder 01" Name-de="Konfiguration Inkrementalgeber 01">
+					<Parameter ID="CounterStd01" Name-en="Data format" Name-de="Datenformat" Value="16Bit" Description-en="Select data format" Description-de="Auswahl Datenformat" Type="STRING">
+						<ComboBox>
+							<Item ID="16Bit" Name-en="16 bit" Name-de="16 Bit"/>
+							<Item ID="32Bit" Name-en="32 bit" Name-de="32 Bit"/>
+						</ComboBox>
+					</Parameter>
+					<Parameter ID="CounterTimeInfo" Name-en="Time information format" Name-de="Format Zeitinformation" Value="off" Description-en="Display time information" Description-de="Anzeige Zeitinformation" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus"/>
+							<Item ID="16Bit" Name-en="16 bit" Name-de="16 Bit"/>
+							<Item ID="32Bit" Name-en="32 bit" Name-de="32 Bit"/>
+						</ComboBox>
+					</Parameter>
+					<Group ID="LatchConfiguration" Name-en="Latch configuration" Name-de="Latch Konfiguration">
+						<Selector ID="LatchMode" Name-en="Latch mode" Name-de="Latch Modus" Value="off" Description-en="Select latch mode" Description-de="Auswahl Latch Modus">
+							<Selection ID="off" Name-en="off" Name-de="Aus"/>
+							<Selection ID="single" Name-en="single-shot" Name-de="einmalig">
+								<Parameter ID="CounterCmp01" Name-en="Latch level channel A" Name-de="Latch-Pegel Kanal A" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp02" Name-en="Latch level channel B" Name-de="Latch-Pegel Kanal B" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp03" Name-en="Latch level channel R" Name-de="Latch-Pegel Kanal R" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp04" Name-en="Latch level channel 01" Name-de="Latch-Pegel Kanal 01" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+							</Selection>
+							<Selection ID="continuous" Name-en="continuous" Name-de="kontinuierlich">
+								<Parameter ID="CounterCmp01" Name-en="Latch level channel A" Name-de="Latch-Pegel Kanal A" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp02" Name-en="Latch level channel B" Name-de="Latch-Pegel Kanal B" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp03" Name-en="Latch level channel R" Name-de="Latch-Pegel Kanal R" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+								<Parameter ID="CounterCmp04" Name-en="Latch level channel 01" Name-de="Latch-Pegel Kanal 01" Value="off" Description-en="Select signal level" Description-de="Auswahl Signalpegel" Type="STRING">
+									<ComboBox>
+										<Item ID="off" Name-en="off" Name-de="Aus"/>
+										<Item ID="low" Name-en="low" Name-de="low"/>
+										<Item ID="high" Name-en="high" Name-de="high"/>
+									</ComboBox>
+								</Parameter>
+							</Selection>
+						</Selector>
+					</Group>
+					<Parameter ID="ABRInputs" Name-en="ABR channels" Name-de="ABR Kanäle" Value="off" Description-en="Display digital status of the ABR channels" Description-de="Anzeige des digitalen Status der ABR Kanäle" Type="STRING">
+						<ComboBox>
+							<Item ID="off" Name-en="off" Name-de="Aus" Name-fr="Inactif"/>
+							<Item ID="on" Name-en="on" Name-de="Ein" Name-fr="Actif"/>
+						</ComboBox>
+					</Parameter>
+				</Group>
+				<Group ID="Diagnostics" Name-en="Diagnostics" Name-de="Diagnose">
+					<Selector ID="BrokenWireConfig" Name-en="Broken wire detection configuration" Name-de="Konfiguration Drahtbrucherkennung" Value="on" Description-en="De-/activate broken wire detection" Description-de="Drahtbrucherkennung aus-/einschalten">
+						<Selection ID="off" Name-en="off" Name-de="Aus"/>
+						<Selection ID="on" Name-en="on" Name-de="Ein">
+							<Parameter ID="BWConfigChannel01" Name-en="Configuration Channel A" Name-de="Konfiguration Kanal A" Value="timer0" Description-en="Activate detection with timer selection" Description-de="Kanalüberwachung aktivieren mit Timerauswahl" Type="STRING">
+								<ComboBox>
+									<Item ID="off" Name-en="off" Name-de="Aus"/>
+									<Item ID="timer0" Name-en="Timer" Name-de="Timer"/>
+								</ComboBox>
+							</Parameter>
+							<Parameter ID="BWConfigChannel02" Name-en="Configuration Channel B" Name-de="Konfiguration Kanal B" Value="timer0" Description-en="Activate detection with timer selection" Description-de="Kanalüberwachung aktivieren mit Timerauswahl" Type="STRING">
+								<ComboBox>
+									<Item ID="off" Name-en="off" Name-de="Aus"/>
+									<Item ID="timer0" Name-en="Timer" Name-de="Timer"/>
+								</ComboBox>
+							</Parameter>
+							<Parameter ID="BWConfigChannel03" Name-en="Configuration Channel R" Name-de="Konfiguration Kanal R" Value="timer0" Description-en="Activate detection with timer selection" Description-de="Kanalüberwachung aktivieren mit Timerauswahl" Type="STRING">
+								<ComboBox>
+									<Item ID="off" Name-en="off" Name-de="Aus"/>
+									<Item ID="timer0" Name-en="Timer" Name-de="Timer"/>
+								</ComboBox>
+							</Parameter>
+							<Parameter ID="BWTimer0" Name-en="Timer" Name-de="Timer" Value="0" Description-en="Adjustment automatic acknowledge time [msec]; 0 = infinite" Description-de="Einstellung automatische Quittierzeit [msec]; 0 = unendlich" Type="UDINT" Range="0-10000"/>
+						</Selection>
+					</Selector>
+				</Group>
+			</Selection>
+		</Selector>
+	</Properties>
+	<Runtime Target="SG4" FromVersion="V2.92" BuildError="true"/>
+	<Runtime Target="SGC" FromVersion="V2.00" BuildError="true"/>
+	<Upload ModuleNr="56616"/>
+</Module>

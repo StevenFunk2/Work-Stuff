@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ServerConfig Name="AsOPCS.opcs" BuildDate="3/30/2020 10:23:10 AM" Version="3.0.80" VersionDate="2/4/2009">
+  <TagPwd Pwd="" />
+  <CommunicationPaths CommunicationTimeout="" RetryTime="" InitParam="">
+    <Connection Name="@/Pvi" Type="Pvi" ObjectDescriptor="" />
+    <Connection Name="@/Pvi/LNINA2" Type="Line" ObjectDescriptor="CD=LNINA2" />
+    <Connection Name="@/Pvi/LNINA2/DUCTO2_RIO" Type="Device" ObjectDescriptor="CD=&quot;/IF=tcpip&quot;" />
+    <Connection Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584" Type="Station" ObjectDescriptor="CD=X20CP1584" />
+    <Connection Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU" Type="Cpu" ObjectDescriptor="CD=&quot;/RT=1000&quot;" />
+  </CommunicationPaths>
+  <LimitAlarms />
+  <DigitalAlarms />
+  <CustomProperties />
+  <OpcItems>
+    <Item Name="MakeBeadRollTable">
+      <OPC Name="MakeBeadRollTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeBeadRollTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeBeadRollTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeButtonTable">
+      <OPC Name="MakeButtonTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeButtonTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeButtonTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeCHoleTable">
+      <OPC Name="MakeCHoleTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeCHoleTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeCHoleTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeCleatTable">
+      <OPC Name="MakeCleatTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeCleatTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeCleatTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeCustomLTTable">
+      <OPC Name="MakeCustomLTTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeCustomLTTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeCustomLTTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeCustomVTable">
+      <OPC Name="MakeCustomVTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeCustomVTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeCustomVTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeLHoleTable">
+      <OPC Name="MakeLHoleTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeLHoleTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeLHoleTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeLTTable">
+      <OPC Name="MakeLTTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeLTTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeLTTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeRHoleTable">
+      <OPC Name="MakeRHoleTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeRHoleTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeRHoleTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeShearBrakeTable">
+      <OPC Name="MakeShearBrakeTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeShearBrakeTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeShearBrakeTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeShearTable">
+      <OPC Name="MakeShearTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeShearTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeShearTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+    <Item Name="MakeVTable">
+      <OPC Name="MakeVTable" Type="BOOL" IsVector="false" ElementCount="1" ElementAddress="false" AccessRights="read/write" WriteResponse="true" IsManual="false" ManualValue="" IsProtected="false" />
+      <PVI Name="@/Pvi/LNINA2/DUCTO2_RIO/X20CP1584/CPU/MakeVTable" Type="Pvar" ObjectDescriptor="VT=boolean VN=1 VL=1 CD=MakeVTable AT=rw RF=1000" LinkDescriptor="VT=boolean VN=1 VL=1 CM=0 LT=raw" AccessType="DATA" />
+    </Item>
+  </OpcItems>
+</ServerConfig>

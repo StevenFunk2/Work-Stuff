@@ -1,0 +1,1832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.5.388"?>
+<Objects>
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package"
+    LastWriteTime="131961918715373054" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="131626223320000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="131964530354294047"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="131933754740000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="131119152520000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="131119152000000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="131119152180000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="131119152360000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="131119152520000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="131119152000000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="131119152180000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="131119152360000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="131119152480000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="131119151960000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="131119152140000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="131119152300000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="131119152400000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="131119151900000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="131119152060000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="131119152240000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\standard\Binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="131119152520000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="131119152020000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="131119152180000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="131119152360000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\MestekLib\IEC.lby"
+    LogicalPath="Libraries.MestekLib"
+    Type="Library"
+    LastWriteTime="131632229780000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\MestekLib\Types.typ"
+    LogicalPath="Libraries.MestekLib.Types.typ"
+    Type="File"
+    LastWriteTime="131632227640000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\MestekLib\Constants.var"
+    LogicalPath="Libraries.MestekLib.Constants.var"
+    Type="File"
+    LastWriteTime="131632227640000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\MestekLib\MestekLib.fun"
+    LogicalPath="Libraries.MestekLib.MestekLib.fun"
+    Type="File"
+    LastWriteTime="131632230260000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\MestekLib\myAdd.st"
+    LogicalPath="Libraries.MestekLib.myAdd.st"
+    Type="File"
+    LastWriteTime="131632230660000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\AsTCP\Binary.lby"
+    LogicalPath="Libraries.AsTCP"
+    Type="Library"
+    LastWriteTime="131119152480000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\AsTCP\AsTCP.fun"
+    LogicalPath="Libraries.AsTCP.AsTCP.fun"
+    Type="File"
+    LastWriteTime="131119151960000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\AsTCP\AsTCP.typ"
+    LogicalPath="Libraries.AsTCP.AsTCP.typ"
+    Type="File"
+    LastWriteTime="131119152140000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\AsTCP\AsTCP.var"
+    LogicalPath="Libraries.AsTCP.AsTCP.var"
+    Type="File"
+    LastWriteTime="131119152300000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\asstring\Binary.lby"
+    LogicalPath="Libraries.asstring"
+    Type="Library"
+    LastWriteTime="131637415280000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\asstring\asstring.fun"
+    LogicalPath="Libraries.asstring.asstring.fun"
+    Type="File"
+    LastWriteTime="131637415280000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\asstring\asstring.typ"
+    LogicalPath="Libraries.asstring.asstring.typ"
+    Type="File"
+    LastWriteTime="131637415280000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\asstring\asstring.var"
+    LogicalPath="Libraries.asstring.asstring.var"
+    Type="File"
+    LastWriteTime="131637415280000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LampTest\IEC.prg"
+    LogicalPath="LampTest"
+    Type="Program"
+    LastWriteTime="131626225800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LampTest\Cyclic.ld"
+    LogicalPath="LampTest.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131626376340000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LampTest\Init.ld"
+    LogicalPath="LampTest.Init.ld"
+    Type="File"
+    LastWriteTime="131626225800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LampTest\Exit.ld"
+    LogicalPath="LampTest.Exit.ld"
+    Type="File"
+    LastWriteTime="131626225800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LampTest\Types.typ"
+    LogicalPath="LampTest.Types.typ"
+    Type="File"
+    LastWriteTime="131626225800000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LampTest\Variables.var"
+    LogicalPath="LampTest.Variables.var"
+    Type="File"
+    LastWriteTime="131626247480000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MotionControl1\IEC.prg"
+    LogicalPath="MotionControl1"
+    Type="Program"
+    LastWriteTime="131627152460000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MotionControl1\Cyclic.st"
+    LogicalPath="MotionControl1.Cyclic.st"
+    Type="File"
+    LastWriteTime="131848329880000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MotionControl1\Init.st"
+    LogicalPath="MotionControl1.Init.st"
+    Type="File"
+    LastWriteTime="131627152460000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MotionControl1\Exit.st"
+    LogicalPath="MotionControl1.Exit.st"
+    Type="File"
+    LastWriteTime="131627152460000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MotionControl1\Types.typ"
+    LogicalPath="MotionControl1.Types.typ"
+    Type="File"
+    LastWriteTime="131627152460000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MotionControl1\Variables.var"
+    LogicalPath="MotionControl1.Variables.var"
+    Type="File"
+    LastWriteTime="131630543080000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder\IEC.prg"
+    LogicalPath="Feeder"
+    Type="Program"
+    LastWriteTime="131632233580000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder\Cyclic.ld"
+    LogicalPath="Feeder.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131960479620000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder\Init.ld"
+    LogicalPath="Feeder.Init.ld"
+    Type="File"
+    LastWriteTime="131910368200000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder\Exit.ld"
+    LogicalPath="Feeder.Exit.ld"
+    Type="File"
+    LastWriteTime="131630635140000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder\Types.typ"
+    LogicalPath="Feeder.Types.typ"
+    Type="File"
+    LastWriteTime="131630635140000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder\Variables.var"
+    LogicalPath="Feeder.Variables.var"
+    Type="File"
+    LastWriteTime="131960314200000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder\Action.st"
+    LogicalPath="Feeder.Action.st"
+    Type="File"
+    LastWriteTime="131933592560000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HMIButtons\IEC.prg"
+    LogicalPath="HMIButtons"
+    Type="Program"
+    LastWriteTime="131631302700000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HMIButtons\Cyclic.ld"
+    LogicalPath="HMIButtons.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131631402600000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HMIButtons\Init.ld"
+    LogicalPath="HMIButtons.Init.ld"
+    Type="File"
+    LastWriteTime="131631302700000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HMIButtons\Exit.ld"
+    LogicalPath="HMIButtons.Exit.ld"
+    Type="File"
+    LastWriteTime="131631302700000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HMIButtons\Types.typ"
+    LogicalPath="HMIButtons.Types.typ"
+    Type="File"
+    LastWriteTime="131631302700000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HMIButtons\Variables.var"
+    LogicalPath="HMIButtons.Variables.var"
+    Type="File"
+    LastWriteTime="131631488640000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\OpcTag.opct"
+    LogicalPath="OpcTag.opct"
+    Type="File"
+    LastWriteTime="131632258740000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Package.pkg"
+    LogicalPath="LibAsTCP1_ST"
+    Type="Package"
+    LastWriteTime="131637400140000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\LibAsTCP1_ST.typ"
+    LogicalPath="LibAsTCP1_ST.LibAsTCP1_ST.typ"
+    Type="File"
+    LastWriteTime="131642779960000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\LibAsTCP1_ST.var"
+    LogicalPath="LibAsTCP1_ST.LibAsTCP1_ST.var"
+    Type="File"
+    LastWriteTime="131632392520000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Server\IEC.prg"
+    LogicalPath="LibAsTCP1_ST.Server"
+    Type="Program"
+    LastWriteTime="131632392520000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Server\Server.st"
+    LogicalPath="LibAsTCP1_ST.Server.Server.st"
+    Type="File"
+    LastWriteTime="131953593100000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Server\Server.typ"
+    LogicalPath="LibAsTCP1_ST.Server.Server.typ"
+    Type="File"
+    LastWriteTime="131642537140000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Server\Server.var"
+    LogicalPath="LibAsTCP1_ST.Server.Server.var"
+    Type="File"
+    LastWriteTime="131657273060000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Client\IEC.prg"
+    LogicalPath="LibAsTCP1_ST.Client"
+    Type="Program"
+    LastWriteTime="131632392520000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Client\Client.st"
+    LogicalPath="LibAsTCP1_ST.Client.Client.st"
+    Type="File"
+    LastWriteTime="131643416680000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Client\Client.typ"
+    LogicalPath="LibAsTCP1_ST.Client.Client.typ"
+    Type="File"
+    LastWriteTime="131632392520000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Client\Client.var"
+    LogicalPath="LibAsTCP1_ST.Client.Client.var"
+    Type="File"
+    LastWriteTime="131642784160000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Library\IEC.lby"
+    LogicalPath="LibAsTCP1_ST.Library"
+    Type="Library"
+    LastWriteTime="131637400140000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Library\Types.typ"
+    LogicalPath="LibAsTCP1_ST.Library.Types.typ"
+    Type="File"
+    LastWriteTime="131637400140000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Library\Constants.var"
+    LogicalPath="LibAsTCP1_ST.Library.Constants.var"
+    Type="File"
+    LastWriteTime="131637400140000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Library\Library.fun"
+    LogicalPath="LibAsTCP1_ST.Library.Library.fun"
+    Type="File"
+    LastWriteTime="131637400140000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkTable\IEC.prg"
+    LogicalPath="MarkTable"
+    Type="Program"
+    LastWriteTime="131655455100000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkTable\Cyclic.ld"
+    LogicalPath="MarkTable.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131958791400000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkTable\Init.ld"
+    LogicalPath="MarkTable.Init.ld"
+    Type="File"
+    LastWriteTime="131655455100000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkTable\Exit.ld"
+    LogicalPath="MarkTable.Exit.ld"
+    Type="File"
+    LastWriteTime="131655455100000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkTable\Types.typ"
+    LogicalPath="MarkTable.Types.typ"
+    Type="File"
+    LastWriteTime="131655455100000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkTable\Variables.var"
+    LogicalPath="MarkTable.Variables.var"
+    Type="File"
+    LastWriteTime="131958791400000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkRF\IEC.prg"
+    LogicalPath="MarkRF"
+    Type="Program"
+    LastWriteTime="131655561160000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkRF\Cyclic.ld"
+    LogicalPath="MarkRF.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131898143100000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkRF\Init.ld"
+    LogicalPath="MarkRF.Init.ld"
+    Type="File"
+    LastWriteTime="131898110200000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkRF\Exit.ld"
+    LogicalPath="MarkRF.Exit.ld"
+    Type="File"
+    LastWriteTime="131655561160000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkRF\Types.typ"
+    LogicalPath="MarkRF.Types.typ"
+    Type="File"
+    LastWriteTime="131655561160000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\MarkRF\Variables.var"
+    LogicalPath="MarkRF.Variables.var"
+    Type="File"
+    LastWriteTime="131898121920000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCTable\IEC.prg"
+    LogicalPath="TDCTable"
+    Type="Program"
+    LastWriteTime="131656412660000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCTable\Cyclic.ld"
+    LogicalPath="TDCTable.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131958537120000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCTable\Init.ld"
+    LogicalPath="TDCTable.Init.ld"
+    Type="File"
+    LastWriteTime="131656412660000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCTable\Exit.ld"
+    LogicalPath="TDCTable.Exit.ld"
+    Type="File"
+    LastWriteTime="131656412660000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCTable\Types.typ"
+    LogicalPath="TDCTable.Types.typ"
+    Type="File"
+    LastWriteTime="131656412660000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCTable\Variables.var"
+    LogicalPath="TDCTable.Variables.var"
+    Type="File"
+    LastWriteTime="131656525580000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCRFPshrs\IEC.prg"
+    LogicalPath="TDCRFPshrs"
+    Type="Program"
+    LastWriteTime="131656535880000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCRFPshrs\Cyclic.ld"
+    LogicalPath="TDCRFPshrs.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131859413780000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCRFPshrs\Init.ld"
+    LogicalPath="TDCRFPshrs.Init.ld"
+    Type="File"
+    LastWriteTime="131656535880000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCRFPshrs\Exit.ld"
+    LogicalPath="TDCRFPshrs.Exit.ld"
+    Type="File"
+    LastWriteTime="131656535880000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCRFPshrs\Types.typ"
+    LogicalPath="TDCRFPshrs.Types.typ"
+    Type="File"
+    LastWriteTime="131656535880000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\TDCRFPshrs\Variables.var"
+    LogicalPath="TDCRFPshrs.Variables.var"
+    Type="File"
+    LastWriteTime="131656560580000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\GlueApp\IEC.prg"
+    LogicalPath="GlueApp"
+    Type="Program"
+    LastWriteTime="131656561320000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\GlueApp\Cyclic.ld"
+    LogicalPath="GlueApp.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131880153620000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\GlueApp\Init.ld"
+    LogicalPath="GlueApp.Init.ld"
+    Type="File"
+    LastWriteTime="131656561320000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\GlueApp\Exit.ld"
+    LogicalPath="GlueApp.Exit.ld"
+    Type="File"
+    LastWriteTime="131656561320000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\GlueApp\Types.typ"
+    LogicalPath="GlueApp.Types.typ"
+    Type="File"
+    LastWriteTime="131656561320000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\GlueApp\Variables.var"
+    LogicalPath="GlueApp.Variables.var"
+    Type="File"
+    LastWriteTime="131880138260000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Insulmatic\IEC.prg"
+    LogicalPath="Insulmatic"
+    Type="Program"
+    LastWriteTime="131657231020000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Insulmatic\Cyclic.ld"
+    LogicalPath="Insulmatic.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131958798800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Insulmatic\Init.ld"
+    LogicalPath="Insulmatic.Init.ld"
+    Type="File"
+    LastWriteTime="131657231020000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Insulmatic\Exit.ld"
+    LogicalPath="Insulmatic.Exit.ld"
+    Type="File"
+    LastWriteTime="131657231020000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Insulmatic\Types.typ"
+    LogicalPath="Insulmatic.Types.typ"
+    Type="File"
+    LastWriteTime="131657231020000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Insulmatic\Variables.var"
+    LogicalPath="Insulmatic.Variables.var"
+    Type="File"
+    LastWriteTime="131880202660000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Pinspotter\IEC.prg"
+    LogicalPath="Pinspotter"
+    Type="Program"
+    LastWriteTime="131657360060000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Pinspotter\Cyclic.ld"
+    LogicalPath="Pinspotter.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131934440440000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Pinspotter\Init.ld"
+    LogicalPath="Pinspotter.Init.ld"
+    Type="File"
+    LastWriteTime="131657360060000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Pinspotter\Exit.ld"
+    LogicalPath="Pinspotter.Exit.ld"
+    Type="File"
+    LastWriteTime="131657360060000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Pinspotter\Types.typ"
+    LogicalPath="Pinspotter.Types.typ"
+    Type="File"
+    LastWriteTime="131657360060000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Pinspotter\Variables.var"
+    LogicalPath="Pinspotter.Variables.var"
+    Type="File"
+    LastWriteTime="131912114800000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\BrakeCommon\IEC.prg"
+    LogicalPath="BrakeCommon"
+    Type="Program"
+    LastWriteTime="131661494840000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\BrakeCommon\Cyclic.ld"
+    LogicalPath="BrakeCommon.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131959407360000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\BrakeCommon\Init.ld"
+    LogicalPath="BrakeCommon.Init.ld"
+    Type="File"
+    LastWriteTime="131661494840000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\BrakeCommon\Exit.ld"
+    LogicalPath="BrakeCommon.Exit.ld"
+    Type="File"
+    LastWriteTime="131661494840000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\BrakeCommon\Types.typ"
+    LogicalPath="BrakeCommon.Types.typ"
+    Type="File"
+    LastWriteTime="131661494840000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\BrakeCommon\Variables.var"
+    LogicalPath="BrakeCommon.Variables.var"
+    Type="File"
+    LastWriteTime="131958853360000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HWBwoPLC\IEC.prg"
+    LogicalPath="HWBwoPLC"
+    Type="Program"
+    LastWriteTime="131667728800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HWBwoPLC\Cyclic.ld"
+    LogicalPath="HWBwoPLC.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131960441180000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HWBwoPLC\Init.ld"
+    LogicalPath="HWBwoPLC.Init.ld"
+    Type="File"
+    LastWriteTime="131667728800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HWBwoPLC\Exit.ld"
+    LogicalPath="HWBwoPLC.Exit.ld"
+    Type="File"
+    LastWriteTime="131667728800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HWBwoPLC\Types.typ"
+    LogicalPath="HWBwoPLC.Types.typ"
+    Type="File"
+    LastWriteTime="131667728800000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HWBwoPLC\Variables.var"
+    LogicalPath="HWBwoPLC.Variables.var"
+    Type="File"
+    LastWriteTime="131960441180000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder_Junk\IEC.prg"
+    LogicalPath="EFeeder_Junk"
+    Type="Program"
+    LastWriteTime="131861976580000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder_Junk\Cyclic.ld"
+    LogicalPath="EFeeder_Junk.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131933727920000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder_Junk\Init.ld"
+    LogicalPath="EFeeder_Junk.Init.ld"
+    Type="File"
+    LastWriteTime="131861976580000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder_Junk\Exit.ld"
+    LogicalPath="EFeeder_Junk.Exit.ld"
+    Type="File"
+    LastWriteTime="131861976580000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder_Junk\Types.typ"
+    LogicalPath="EFeeder_Junk.Types.typ"
+    Type="File"
+    LastWriteTime="131861976580000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder_Junk\Variables.var"
+    LogicalPath="EFeeder_Junk.Variables.var"
+    Type="File"
+    LastWriteTime="131933718620000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder_Junk\Action.st"
+    LogicalPath="EFeeder_Junk.Action.st"
+    Type="File"
+    LastWriteTime="131926861220000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotionControl\IEC.prg"
+    LogicalPath="IMotionControl"
+    Type="Program"
+    LastWriteTime="131921587700000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotionControl\Cyclic.st"
+    LogicalPath="IMotionControl.Cyclic.st"
+    Type="File"
+    LastWriteTime="131960234340000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotionControl\Init.st"
+    LogicalPath="IMotionControl.Init.st"
+    Type="File"
+    LastWriteTime="131921587700000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotionControl\Exit.st"
+    LogicalPath="IMotionControl.Exit.st"
+    Type="File"
+    LastWriteTime="131921587700000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotionControl\Types.typ"
+    LogicalPath="IMotionControl.Types.typ"
+    Type="File"
+    LastWriteTime="131921587700000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotionControl\Variables.var"
+    LogicalPath="IMotionControl.Variables.var"
+    Type="File"
+    LastWriteTime="131921587700000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HydraulicBrakeCarriage\IEC.prg"
+    LogicalPath="HydraulicBrakeCarriage"
+    Type="Program"
+    LastWriteTime="131668436640000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HydraulicBrakeCarriage\Cyclic.ld"
+    LogicalPath="HydraulicBrakeCarriage.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131959494700000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HydraulicBrakeCarriage\Init.ld"
+    LogicalPath="HydraulicBrakeCarriage.Init.ld"
+    Type="File"
+    LastWriteTime="131668436640000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HydraulicBrakeCarriage\Exit.ld"
+    LogicalPath="HydraulicBrakeCarriage.Exit.ld"
+    Type="File"
+    LastWriteTime="131668436640000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HydraulicBrakeCarriage\Types.typ"
+    LogicalPath="HydraulicBrakeCarriage.Types.typ"
+    Type="File"
+    LastWriteTime="131668436640000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\HydraulicBrakeCarriage\Variables.var"
+    LogicalPath="HydraulicBrakeCarriage.Variables.var"
+    Type="File"
+    LastWriteTime="131959509140000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CleatRoll\IEC.prg"
+    LogicalPath="CleatRoll"
+    Type="Program"
+    LastWriteTime="131697971060000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CleatRoll\Cyclic.ld"
+    LogicalPath="CleatRoll.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131950755360000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CleatRoll\Init.ld"
+    LogicalPath="CleatRoll.Init.ld"
+    Type="File"
+    LastWriteTime="131697995360000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CleatRoll\Exit.ld"
+    LogicalPath="CleatRoll.Exit.ld"
+    Type="File"
+    LastWriteTime="131697971060000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CleatRoll\Types.typ"
+    LogicalPath="CleatRoll.Types.typ"
+    Type="File"
+    LastWriteTime="131697971060000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CleatRoll\Variables.var"
+    LogicalPath="CleatRoll.Variables.var"
+    Type="File"
+    LastWriteTime="131702127200000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EMotionControl\IEC.prg"
+    LogicalPath="EMotionControl"
+    Type="Program"
+    LastWriteTime="131848520140000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EMotionControl\Cyclic.st"
+    LogicalPath="EMotionControl.Cyclic.st"
+    Type="File"
+    LastWriteTime="131957059920000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EMotionControl\Init.st"
+    LogicalPath="EMotionControl.Init.st"
+    Type="File"
+    LastWriteTime="131886093400000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EMotionControl\Exit.st"
+    LogicalPath="EMotionControl.Exit.st"
+    Type="File"
+    LastWriteTime="131848520140000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EMotionControl\Types.typ"
+    LogicalPath="EMotionControl.Types.typ"
+    Type="File"
+    LastWriteTime="131848520140000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EMotionControl\Variables.var"
+    LogicalPath="EMotionControl.Variables.var"
+    Type="File"
+    LastWriteTime="131848520140000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SysCheck\IEC.prg"
+    LogicalPath="SysCheck"
+    Type="Program"
+    LastWriteTime="131925992780000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SysCheck\Cyclic.ld"
+    LogicalPath="SysCheck.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131925992780000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SysCheck\Init.ld"
+    LogicalPath="SysCheck.Init.ld"
+    Type="File"
+    LastWriteTime="131925992780000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SysCheck\Exit.ld"
+    LogicalPath="SysCheck.Exit.ld"
+    Type="File"
+    LastWriteTime="131925992780000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SysCheck\Types.typ"
+    LogicalPath="SysCheck.Types.typ"
+    Type="File"
+    LastWriteTime="131925992780000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SysCheck\Variables.var"
+    LogicalPath="SysCheck.Variables.var"
+    Type="File"
+    LastWriteTime="131925992780000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SBrake\IEC.prg"
+    LogicalPath="SBrake"
+    Type="Program"
+    LastWriteTime="131877489200000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SBrake\Cyclic.ld"
+    LogicalPath="SBrake.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131890447340000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SBrake\Init.ld"
+    LogicalPath="SBrake.Init.ld"
+    Type="File"
+    LastWriteTime="131877489200000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SBrake\Exit.ld"
+    LogicalPath="SBrake.Exit.ld"
+    Type="File"
+    LastWriteTime="131877489200000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SBrake\Types.typ"
+    LogicalPath="SBrake.Types.typ"
+    Type="File"
+    LastWriteTime="131877489200000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\SBrake\Variables.var"
+    LogicalPath="SBrake.Variables.var"
+    Type="File"
+    LastWriteTime="131877590080000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder1\IEC.prg"
+    LogicalPath="EFeeder1"
+    Type="Program"
+    LastWriteTime="131933754940000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder1\Cyclic.ld"
+    LogicalPath="EFeeder1.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131934366280000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder1\Init.ld"
+    LogicalPath="EFeeder1.Init.ld"
+    Type="File"
+    LastWriteTime="131933754940000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder1\Exit.ld"
+    LogicalPath="EFeeder1.Exit.ld"
+    Type="File"
+    LastWriteTime="131933754940000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder1\Types.typ"
+    LogicalPath="EFeeder1.Types.typ"
+    Type="File"
+    LastWriteTime="131933754940000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder1\Variables.var"
+    LogicalPath="EFeeder1.Variables.var"
+    Type="File"
+    LastWriteTime="131933773820000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder1\Action.st"
+    LogicalPath="EFeeder1.Action.st"
+    Type="File"
+    LastWriteTime="131933754940000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Uncoiler_1\IEC.prg"
+    LogicalPath="Uncoiler_1"
+    Type="Program"
+    LastWriteTime="131886073940000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Uncoiler_1\Cyclic.ld"
+    LogicalPath="Uncoiler_1.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131886111400000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Uncoiler_1\Init.ld"
+    LogicalPath="Uncoiler_1.Init.ld"
+    Type="File"
+    LastWriteTime="131886073940000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Uncoiler_1\Exit.ld"
+    LogicalPath="Uncoiler_1.Exit.ld"
+    Type="File"
+    LastWriteTime="131886073940000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Uncoiler_1\Types.typ"
+    LogicalPath="Uncoiler_1.Types.typ"
+    Type="File"
+    LastWriteTime="131886073940000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Uncoiler_1\Variables.var"
+    LogicalPath="Uncoiler_1.Variables.var"
+    Type="File"
+    LastWriteTime="131886111400000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Feeder\IEC.prg"
+    LogicalPath="E2Feeder"
+    Type="Program"
+    LastWriteTime="131891212300000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Feeder\Cyclic.ld"
+    LogicalPath="E2Feeder.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131958069280000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Feeder\Init.ld"
+    LogicalPath="E2Feeder.Init.ld"
+    Type="File"
+    LastWriteTime="131891212300000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Feeder\Exit.ld"
+    LogicalPath="E2Feeder.Exit.ld"
+    Type="File"
+    LastWriteTime="131891212300000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Feeder\Types.typ"
+    LogicalPath="E2Feeder.Types.typ"
+    Type="File"
+    LastWriteTime="131891212300000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Feeder\Variables.var"
+    LogicalPath="E2Feeder.Variables.var"
+    Type="File"
+    LastWriteTime="131958060700000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Feeder\Action.st"
+    LogicalPath="E2Feeder.Action.st"
+    Type="File"
+    LastWriteTime="131949953300000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Buttons\IEC.prg"
+    LogicalPath="E2Buttons"
+    Type="Program"
+    LastWriteTime="131891177660000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Buttons\Cyclic.ld"
+    LogicalPath="E2Buttons.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131950744000000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Buttons\Init.ld"
+    LogicalPath="E2Buttons.Init.ld"
+    Type="File"
+    LastWriteTime="131891177660000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Buttons\Exit.ld"
+    LogicalPath="E2Buttons.Exit.ld"
+    Type="File"
+    LastWriteTime="131891177660000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Buttons\Types.typ"
+    LogicalPath="E2Buttons.Types.typ"
+    Type="File"
+    LastWriteTime="131891177660000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Buttons\Variables.var"
+    LogicalPath="E2Buttons.Variables.var"
+    Type="File"
+    LastWriteTime="131950164780000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrSrvDrv\IEC.prg"
+    LogicalPath="EFdrSrvDrv"
+    Type="Program"
+    LastWriteTime="131891208020000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrSrvDrv\Cyclic.ld"
+    LogicalPath="EFdrSrvDrv.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131933711280000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrSrvDrv\Init.ld"
+    LogicalPath="EFdrSrvDrv.Init.ld"
+    Type="File"
+    LastWriteTime="131891208020000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrSrvDrv\Exit.ld"
+    LogicalPath="EFdrSrvDrv.Exit.ld"
+    Type="File"
+    LastWriteTime="131891208020000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrSrvDrv\Types.typ"
+    LogicalPath="EFdrSrvDrv.Types.typ"
+    Type="File"
+    LastWriteTime="131891208020000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrSrvDrv\Variables.var"
+    LogicalPath="EFdrSrvDrv.Variables.var"
+    Type="File"
+    LastWriteTime="131891237380000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrHydDrv\IEC.prg"
+    LogicalPath="EFdrHydDrv"
+    Type="Program"
+    LastWriteTime="131891299400000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrHydDrv\Cyclic.ld"
+    LogicalPath="EFdrHydDrv.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131963599188945638"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrHydDrv\Init.ld"
+    LogicalPath="EFdrHydDrv.Init.ld"
+    Type="File"
+    LastWriteTime="131933726000000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrHydDrv\Exit.ld"
+    LogicalPath="EFdrHydDrv.Exit.ld"
+    Type="File"
+    LastWriteTime="131891299400000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrHydDrv\Types.typ"
+    LogicalPath="EFdrHydDrv.Types.typ"
+    Type="File"
+    LastWriteTime="131891299400000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFdrHydDrv\Variables.var"
+    LogicalPath="EFdrHydDrv.Variables.var"
+    Type="File"
+    LastWriteTime="131963571961753759"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Transfer\IEC.prg"
+    LogicalPath="E2Transfer"
+    Type="Program"
+    LastWriteTime="131891429780000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Transfer\Cyclic.ld"
+    LogicalPath="E2Transfer.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131950773440000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Transfer\Init.ld"
+    LogicalPath="E2Transfer.Init.ld"
+    Type="File"
+    LastWriteTime="131891429780000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Transfer\Exit.ld"
+    LogicalPath="E2Transfer.Exit.ld"
+    Type="File"
+    LastWriteTime="131891429780000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Transfer\Types.typ"
+    LogicalPath="E2Transfer.Types.typ"
+    Type="File"
+    LastWriteTime="131891429780000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2Transfer\Variables.var"
+    LogicalPath="E2Transfer.Variables.var"
+    Type="File"
+    LastWriteTime="131950773440000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder1\IEC.prg"
+    LogicalPath="Feeder1"
+    Type="Program"
+    LastWriteTime="131914564360000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder1\Cyclic.ld"
+    LogicalPath="Feeder1.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131932717400000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder1\Init.ld"
+    LogicalPath="Feeder1.Init.ld"
+    Type="File"
+    LastWriteTime="131914564360000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder1\Exit.ld"
+    LogicalPath="Feeder1.Exit.ld"
+    Type="File"
+    LastWriteTime="131914564360000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder1\Types.typ"
+    LogicalPath="Feeder1.Types.typ"
+    Type="File"
+    LastWriteTime="131914564360000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder1\Variables.var"
+    LogicalPath="Feeder1.Variables.var"
+    Type="File"
+    LastWriteTime="131928462740000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Feeder1\Action.st"
+    LogicalPath="Feeder1.Action.st"
+    Type="File"
+    LastWriteTime="131914564360000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EngelStuff\IEC.prg"
+    LogicalPath="EngelStuff"
+    Type="Program"
+    LastWriteTime="131914571420000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EngelStuff\Cyclic.ld"
+    LogicalPath="EngelStuff.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131953570980000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EngelStuff\Init.ld"
+    LogicalPath="EngelStuff.Init.ld"
+    Type="File"
+    LastWriteTime="131934382020000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EngelStuff\Exit.ld"
+    LogicalPath="EngelStuff.Exit.ld"
+    Type="File"
+    LastWriteTime="131914571420000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EngelStuff\Types.typ"
+    LogicalPath="EngelStuff.Types.typ"
+    Type="File"
+    LastWriteTime="131914571420000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EngelStuff\Variables.var"
+    LogicalPath="EngelStuff.Variables.var"
+    Type="File"
+    LastWriteTime="131934382520000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotion2\IEC.prg"
+    LogicalPath="IMotion2"
+    Type="Program"
+    LastWriteTime="131915406720000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotion2\Cyclic.st"
+    LogicalPath="IMotion2.Cyclic.st"
+    Type="File"
+    LastWriteTime="131963849617975672"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotion2\Init.st"
+    LogicalPath="IMotion2.Init.st"
+    Type="File"
+    LastWriteTime="131915406720000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotion2\Exit.st"
+    LogicalPath="IMotion2.Exit.st"
+    Type="File"
+    LastWriteTime="131915406720000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotion2\Types.typ"
+    LogicalPath="IMotion2.Types.typ"
+    Type="File"
+    LastWriteTime="131915406720000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\IMotion2\Variables.var"
+    LogicalPath="IMotion2.Variables.var"
+    Type="File"
+    LastWriteTime="131964400736134972"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E_FWB\IEC.prg"
+    LogicalPath="E_FWB"
+    Type="Program"
+    LastWriteTime="131915591280000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E_FWB\Cyclic.ld"
+    LogicalPath="E_FWB.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131964438406396046"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E_FWB\Init.ld"
+    LogicalPath="E_FWB.Init.ld"
+    Type="File"
+    LastWriteTime="131935377320000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E_FWB\Exit.ld"
+    LogicalPath="E_FWB.Exit.ld"
+    Type="File"
+    LastWriteTime="131915591280000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E_FWB\Types.typ"
+    LogicalPath="E_FWB.Types.typ"
+    Type="File"
+    LastWriteTime="131915591280000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E_FWB\Variables.var"
+    LogicalPath="E_FWB.Variables.var"
+    Type="File"
+    LastWriteTime="131964438405302362"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\PMaster\IEC.prg"
+    LogicalPath="PMaster"
+    Type="Program"
+    LastWriteTime="131923265540000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\PMaster\Cyclic.ld"
+    LogicalPath="PMaster.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131927562380000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\PMaster\Init.ld"
+    LogicalPath="PMaster.Init.ld"
+    Type="File"
+    LastWriteTime="131923265540000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\PMaster\Exit.ld"
+    LogicalPath="PMaster.Exit.ld"
+    Type="File"
+    LastWriteTime="131923265540000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\PMaster\Types.typ"
+    LogicalPath="PMaster.Types.typ"
+    Type="File"
+    LastWriteTime="131923265540000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\PMaster\Variables.var"
+    LogicalPath="PMaster.Variables.var"
+    Type="File"
+    LastWriteTime="131923286520000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CEF\IEC.prg"
+    LogicalPath="CEF"
+    Type="Program"
+    LastWriteTime="131923384600000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CEF\Cyclic.ld"
+    LogicalPath="CEF.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131946726080000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CEF\Init.ld"
+    LogicalPath="CEF.Init.ld"
+    Type="File"
+    LastWriteTime="131934382700000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CEF\Exit.ld"
+    LogicalPath="CEF.Exit.ld"
+    Type="File"
+    LastWriteTime="131923384600000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CEF\Types.typ"
+    LogicalPath="CEF.Types.typ"
+    Type="File"
+    LastWriteTime="131923384600000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\CEF\Variables.var"
+    LogicalPath="CEF.Variables.var"
+    Type="File"
+    LastWriteTime="131934382700000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2_LOM\IEC.prg"
+    LogicalPath="E2_LOM"
+    Type="Program"
+    LastWriteTime="131925750420000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2_LOM\Cyclic.ld"
+    LogicalPath="E2_LOM.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131925797860000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2_LOM\Init.ld"
+    LogicalPath="E2_LOM.Init.ld"
+    Type="File"
+    LastWriteTime="131925750420000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2_LOM\Exit.ld"
+    LogicalPath="E2_LOM.Exit.ld"
+    Type="File"
+    LastWriteTime="131925750420000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2_LOM\Types.typ"
+    LogicalPath="E2_LOM.Types.typ"
+    Type="File"
+    LastWriteTime="131925750420000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\E2_LOM\Variables.var"
+    LogicalPath="E2_LOM.Variables.var"
+    Type="File"
+    LastWriteTime="131925750420000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder\IEC.prg"
+    LogicalPath="EFeeder"
+    Type="Program"
+    LastWriteTime="131933759920000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder\Cyclic.ld"
+    LogicalPath="EFeeder.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131933763280000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder\Init.ld"
+    LogicalPath="EFeeder.Init.ld"
+    Type="File"
+    LastWriteTime="131933759920000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder\Exit.ld"
+    LogicalPath="EFeeder.Exit.ld"
+    Type="File"
+    LastWriteTime="131933759920000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder\Types.typ"
+    LogicalPath="EFeeder.Types.typ"
+    Type="File"
+    LastWriteTime="131933759920000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder\Variables.var"
+    LogicalPath="EFeeder.Variables.var"
+    Type="File"
+    LastWriteTime="131933759920000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\EFeeder\Action.st"
+    LogicalPath="EFeeder.Action.st"
+    Type="File"
+    LastWriteTime="131933759920000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\DH800\IEC.prg"
+    LogicalPath="DH800"
+    Type="Program"
+    LastWriteTime="131947451060000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\DH800\Cyclic.ld"
+    LogicalPath="DH800.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131947471680000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\DH800\Init.ld"
+    LogicalPath="DH800.Init.ld"
+    Type="File"
+    LastWriteTime="131947451060000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\DH800\Exit.ld"
+    LogicalPath="DH800.Exit.ld"
+    Type="File"
+    LastWriteTime="131947451060000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\DH800\Types.typ"
+    LogicalPath="DH800.Types.typ"
+    Type="File"
+    LastWriteTime="131947451060000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\DH800\Variables.var"
+    LogicalPath="DH800.Variables.var"
+    Type="File"
+    LastWriteTime="131947451060000000"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\ProgramA\IEC.prg"
+    LogicalPath="ProgramA"
+    Type="Program"
+    LastWriteTime="131961918537873656" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\ProgramA\Cyclic.ld"
+    LogicalPath="ProgramA.Cyclic.ld"
+    Type="File"
+    LastWriteTime="131961923663361913"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\ProgramA\Init.ld"
+    LogicalPath="ProgramA.Init.ld"
+    Type="File"
+    LastWriteTime="131961918537707385"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\ProgramA\Exit.ld"
+    LogicalPath="ProgramA.Exit.ld"
+    Type="File"
+    LastWriteTime="131961918537707385"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\ProgramA\Types.typ"
+    LogicalPath="ProgramA.Types.typ"
+    Type="File"
+    LastWriteTime="131961918537873656"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\ProgramA\Variables.var"
+    LogicalPath="ProgramA.Variables.var"
+    Type="File"
+    LastWriteTime="131961920009038062"
+    Private="true" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\Config.pkg"
+    LogicalPath="E1000V2_1"
+    Type="Configuration"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\Hardware.hw"
+    LogicalPath="E1000V2_1.Hardware.hw"
+    Type="File"
+    LastWriteTime="131961904142070120"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\Hardware.hwl"
+    LogicalPath="E1000V2_1.Hardware.hwl"
+    Type="File"
+    LastWriteTime="131932882800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\Cpu.pkg"
+    LogicalPath="E1000V2_1.X20CP1584"
+    Type="Cpu"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\Cpu.sw"
+    LogicalPath="E1000V2_1.X20CP1584.Cpu.sw"
+    Type="File"
+    LastWriteTime="131961923955859910"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\Cpu.per"
+    LogicalPath="E1000V2_1.X20CP1584.Cpu.per"
+    Type="File"
+    LastWriteTime="131932882800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\IoMap.iom"
+    LogicalPath="E1000V2_1.X20CP1584.IoMap.iom"
+    Type="File"
+    LastWriteTime="131963538189574621"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\PvMap.vvm"
+    LogicalPath="E1000V2_1.X20CP1584.PvMap.vvm"
+    Type="File"
+    LastWriteTime="131932882800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\mapp\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.mapp"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\Connectivity\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.Connectivity"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\TextSystem\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.TextSystem"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="131932882800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="131932882800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\X20CP1584\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="E1000V2_1.X20CP1584.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="131932882800000000" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Physical\E1000V2_1\Hardware.jpg"
+    LogicalPath="E1000V2_1.Hardware.jpg"
+    Type="File"
+    LastWriteTime="131932882800000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\AsIecCon\SG4\AsIecCon.h"
+    LogicalPath="AsIecCon.h"
+    Type="File"
+    LastWriteTime="131119152580000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\asstring\SG4\asstring.h"
+    LogicalPath="asstring.h"
+    Type="File"
+    LastWriteTime="131119152640000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\AsTCP\SG4\AsTCP.h"
+    LogicalPath="AsTCP.h"
+    Type="File"
+    LastWriteTime="131119152660000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\astime\SG4\astime.h"
+    LogicalPath="astime.h"
+    Type="File"
+    LastWriteTime="131119152660000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\LibAsTCP1_ST\Library\SG4\Library.h"
+    LogicalPath="Library.h"
+    Type="File"
+    LastWriteTime="0"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\MestekLib\SG4\MestekLib.h"
+    LogicalPath="MestekLib.h"
+    Type="File"
+    LastWriteTime="0"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\operator\SG4\operator.h"
+    LogicalPath="operator.h"
+    Type="File"
+    LastWriteTime="131119152700000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\runtime\SG4\runtime.h"
+    LogicalPath="runtime.h"
+    Type="File"
+    LastWriteTime="131119152700000000"
+    Private="false" />
+  <Object
+    Path="C:\Code\BandR Duct Line Project\Logical\Libraries\standard\SG4\standard.h"
+    LogicalPath="standard.h"
+    Type="File"
+    LastWriteTime="131119152700000000"
+    Private="false" />
+</Objects>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Transfer xmlns="http://br-automation.co.at/AS/Transfer">
+  <OperatingSystem Version="J4.25"/>
+  <Hardware Target="SG4"/>
+  <Operation Delete="Server.br"/>
+  <Operation Delete="DH800.br"/>
+  <Operation Delete="E_FWB.br"/>
+  <Operation Delete="Pinspotter.br"/>
+  <Operation Delete="PMaster.br"/>
+  <Operation Delete="E2Feeder.br"/>
+  <Operation Delete="SysCheck.br"/>
+  <Operation Delete="EFdrHydDrv.br"/>
+  <Operation Delete="IMotion2.br"/>
+  <Operation Delete="CEF.br"/>
+  <Operation Delete="astcp.br"/>
+  <Operation Delete="asieccon.br"/>
+  <Operation Delete="astime.br"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
+  <Operation Download="ashwd.br" Memory="SystemROM"/>
+  <Operation Download="arconfig.br" Memory="SystemROM"/>
+  <Operation Download="sysconf.br" Memory="SystemROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="TCData.br" Memory="SystemROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
+  <Operation Download="runtime.br" Memory="UserROM"/>
+  <Operation Download="asstring.br" Memory="UserROM"/>
+  <Operation Download="astime.br" Memory="UserROM"/>
+  <Operation Download="asieccon.br" Memory="UserROM"/>
+  <Operation Download="astcp.br" Memory="UserROM"/>
+  <Operation Download="CEF.br" Memory="UserROM"/>
+  <Operation Download="IMotion2.br" Memory="UserROM"/>
+  <Operation Download="EFdrHydDrv.br" Memory="UserROM"/>
+  <Operation Download="SysCheck.br" Memory="UserROM"/>
+  <Operation Download="E2Feeder.br" Memory="UserROM"/>
+  <Operation Download="PMaster.br" Memory="UserROM"/>
+  <Operation Download="Pinspotter.br" Memory="UserROM"/>
+  <Operation Download="E_FWB.br" Memory="UserROM"/>
+  <Operation Download="DH800.br" Memory="UserROM"/>
+  <Operation Download="Server.br" Memory="UserROM"/>
+</Transfer>

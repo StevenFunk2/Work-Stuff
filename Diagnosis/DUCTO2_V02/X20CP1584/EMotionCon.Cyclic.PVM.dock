@@ -1,0 +1,11 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=EMotionCon 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=7 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                              TargetDAC1                                      INT    0 "                                                              45"    0    3    1   10    0    0         
+                              ActualDAC1                                      INT    3 "                                                               0"    0    3    1   10    0    0         
+                             DACBalance1                                      INT    0 "                                                              60"    0    3    1   10    1    0         
+                          MetalTolerance                                      INT    0 "                                                              30"    0    3    1   10    0    0         
+                                    SRM1                                     REAL    0 "                                                        96727.59"    0    8    1   10    0    0         
+                             SettleTime1                                      INT    0 "                                                              50"    0    3    1   10    0    0         
+                   IncrementalDINTTarget                                     DINT    0 "                                                           41070"    0    4    1   10    0    0         
+                          DecelDistance1                                     DINT    0 "                                                            5428"    0    4    1   10    0    0         

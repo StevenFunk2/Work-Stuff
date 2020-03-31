@@ -1,0 +1,14 @@
+VAR
+	zzFTR000010000:f_trig:=(0);
+	zzFTR000010001:f_trig:=(0);
+	zzFTR000010002:f_trig:=(0);
+	zzBOOL00010000:BOOL:=FALSE;
+	zzBOOL00010001:BOOL:=FALSE;
+	zz000C00010000:TIME:=T#0ms;
+	zzRTR000010000:r_trig:=(0);
+	zzRTR000010001:r_trig:=(0);
+	zzRTR000010002:r_trig:=(0);
+	zzRTR000010003:r_trig:=(0);
+	zzRTR000010004:r_trig:=(0);
+	zzRTR000010005:r_trig:=(0);
+END_VAR

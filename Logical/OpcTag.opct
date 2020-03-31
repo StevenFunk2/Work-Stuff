@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tags>
+  <Tag Type="BOOLEAN" Name="MakeBeadRollTable" Description="" SourceVariable="MakeBeadRollTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeButtonTable" Description="" SourceVariable="MakeButtonTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeCHoleTable" Description="" SourceVariable="MakeCHoleTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeCleatTable" Description="" SourceVariable="MakeCleatTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeCustomLTTable" Description="" SourceVariable="MakeCustomLTTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeCustomVTable" Description="" SourceVariable="MakeCustomVTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeLHoleTable" Description="" SourceVariable="MakeLHoleTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeLTTable" Description="" SourceVariable="MakeLTTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeRHoleTable" Description="" SourceVariable="MakeRHoleTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeShearBrakeTable" Description="" SourceVariable="MakeShearBrakeTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeShearTable" Description="" SourceVariable="MakeShearTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+  <Tag Type="BOOLEAN" Name="MakeVTable" Description="" SourceVariable="MakeVTable" SourceProgram="" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
+    <Format IsVector="False" IsArrayElement="False" Index="0" />
+    <Access IsProtected="False" Read="True" Write="True" />
+    <Values Manual="False" ManualValue="" />
+  </Tag>
+</Tags>

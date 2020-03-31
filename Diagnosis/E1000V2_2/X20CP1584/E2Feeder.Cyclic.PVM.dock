@@ -1,0 +1,25 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=E2Feeder 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=97 Type=62 Scope=41 Force=88 Index=21 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                             MakeLTTable                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                          MakeShearTable                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         
+                           LeftHoleTable                              REAL[0..17]    0 "                                                               *"    0    8   18    0    0    1         
+                        LeftHoleTable[0]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                        LeftHoleTable[1]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                        LeftHoleTable[2]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                        LeftHoleTable[3]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                        LeftHoleTable[4]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                        LeftHoleTable[5]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                        LeftHoleTable[6]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                        LeftHoleTable[7]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                        LeftHoleTable[8]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                        LeftHoleTable[9]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                       LeftHoleTable[10]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                       LeftHoleTable[11]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                       LeftHoleTable[12]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                       LeftHoleTable[13]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                       LeftHoleTable[14]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                       LeftHoleTable[15]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                       LeftHoleTable[16]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                       LeftHoleTable[17]                                     REAL    0 "                                                             0.0"    1    8    1   10    0    0         
+                             StartSignal                                     BOOL    0 "                                                           FALSE"    0    1    1    2    0    0         

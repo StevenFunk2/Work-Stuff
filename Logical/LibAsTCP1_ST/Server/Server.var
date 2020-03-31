@@ -1,0 +1,31 @@
+(********************************************************************
+ * COPYRIGHT -- Bernecker + Rainer
+ ********************************************************************
+ * Package: LibAsTCP
+ * File: LibAsTCP.var
+ * Author: Bernecker + Rainer
+ * Created: February 21, 2008
+ ********************************************************************
+ * Variables of package LibAsTCP
+ ********************************************************************)
+VAR
+	itemStrLen : UDINT;
+	outStrLen : UDINT;
+	outString : STRING[80];
+	UpdatePC : BOOL;
+	CommaPosition1 : UDINT;
+	HandleIndex : UDINT;
+	HandleStringA : STRING[80];
+	HandleStringB : STRING[80];
+	LastByte : UDINT;
+	nxt_adr : UDINT;
+	Server : Server_typ := (0); (*Data for Server Task*)
+	SLength : UDINT;
+	TagHandle : DINT;
+	Tracer : DINT;
+	Index : DINT;
+	TrueString : STRING[80];
+	UpperLimit : UDINT;
+	ValueStringA : STRING[80];
+	ValueStringB : STRING[80];
+END_VAR

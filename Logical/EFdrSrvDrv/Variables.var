@@ -1,0 +1,3 @@
+VAR
+	RollEnableUnlatch : BOOL;
+END_VAR

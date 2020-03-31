@@ -1,0 +1,21 @@
+VAR
+	State01 : BOOL;
+	State02 : BOOL;
+	State05 : BOOL;
+	ManualFunction : BOOL;
+	CycleComplete : BOOL;
+	State07 : BOOL;
+	TON_0 : TON;
+	ClampTimerDone : BOOL;
+	State10 : BOOL;
+	State12 : BOOL;
+	LDDoneA : BOOL;
+	State15 : BOOL;
+	State17 : BOOL;
+	LDDoneB : BOOL;
+	State20 : BOOL;
+	LeafDwell : TIME;
+	TON_1 : TON;
+	TON_2 : TON;
+	CLMP : BOOL;
+END_VAR

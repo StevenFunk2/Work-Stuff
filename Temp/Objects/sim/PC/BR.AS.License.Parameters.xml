@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/RT=1000 /AM=* /DAIP=127.0.0.1 /REPO=11160 /ANSL=1</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\code\BandR Projects\X20_CPU\X20_CPU\X20_CPU.apj</ApjFullFileName>
+    <ProjectName>X20_CPU</ProjectName>
+    <ActiveConfigurationName>sim</ActiveConfigurationName>
+    <LicenseDataFolder>C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

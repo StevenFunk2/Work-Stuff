@@ -1,0 +1,27 @@
+VAR
+	AbsoluteDifference : DINT;
+	ActualRunPercent2 : REAL;
+	ActualSpeed2 : REAL;
+	AMoveLength2 : DINT;
+	AverageSpeed2 : REAL;
+	Axis2Scaler : REAL;
+	Counter2 : INT;
+	DACAdd2 : REAL;
+	DACBalance2 : INT;
+	DecelCounter2 : INT;
+	DecelDistance2 : DINT;
+	DecelTime2 : REAL;
+	difference : DINT;
+	FirstTarget2 : BOOL;
+	Hold2 : INT;
+	LastPosition2 : DINT;
+	MoveLength2 : DINT;
+	Ratio2 : INT;
+	RealDAC2 : REAL;
+	SRM2 : REAL;
+	StopWatch2 : REAL;
+	TargetCount2 : INT;
+	TargetDAC2 : INT;
+	TopAxis2Speed : REAL := 204800;
+	TopDAC2 : INT;
+END_VAR

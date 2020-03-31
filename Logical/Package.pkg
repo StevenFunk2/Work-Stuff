@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.14.119 SP?>
+<Package Version="1.00.0" xmlns="http://br-automation.co.at/AS/Package">
+  <Objects>
+    <Object Type="File" Description="Global data types">Global.typ</Object>
+    <Object Type="File" Description="Global variables">Global.var</Object>
+    <Object Type="Package" Description="Global libraries">Libraries</Object>
+    <Object Type="Program" Language="IEC">LampTest</Object>
+    <Object Type="Program" Language="IEC">MotionControl1</Object>
+    <Object Type="Program" Language="IEC">Feeder</Object>
+    <Object Type="Program" Language="IEC">HMIButtons</Object>
+    <Object Type="File">OpcTag.opct</Object>
+    <Object Type="Package">LibAsTCP1_ST</Object>
+    <Object Type="Program" Language="IEC">MarkTable</Object>
+    <Object Type="Program" Language="IEC">MarkRF</Object>
+    <Object Type="Program" Language="IEC">TDCRFPshrs</Object>
+    <Object Type="Program" Language="IEC">GlueApp</Object>
+    <Object Type="Program" Language="IEC">Insulmatic</Object>
+    <Object Type="Program" Language="IEC">Pinspotter</Object>
+    <Object Type="Program" Language="IEC" Description="In this file: The encoder feedback is scaled to inches. All of the brakes use real dimensions, except for the Electric Servo Brake, The Auto Latch for all brake styles, Target selection for all brake styles, A latch that holds all outputs in their initial state, The bending routine for all brakes without their own PLC begins about rung 29, Clamp, Leaf, Beam outputs for brakes without a PLC begins about rung 42, Brake Conveyor and Auto/Man Indicator Outputs">BrakeCommon</Object>
+    <Object Type="Program" Language="IEC">HWBwoPLC</Object>
+    <Object Type="Program" Language="IEC">TDCTable</Object>
+    <Object Type="Program" Language="IEC" Description="Ducto Roll Drive Electric Servo routine">IMotionControl</Object>
+    <Object Type="Program" Language="IEC" Description="Reference Sequence for all brakes begins around rung #9, Move To Target Logic For Digital Output controlled brakes begins rung #15, Wrap Brake With PLC Outputs about rung #48">HydraulicBrakeCarriage</Object>
+    <Object Type="Program" Language="IEC">CleatRoll</Object>
+    <Object Type="Program" Language="IEC">SysCheck</Object>
+    <Object Type="Program" Language="IEC">SBrake</Object>
+    <Object Type="Program" Language="IEC">EFeeder1</Object>
+    <Object Type="Program" Language="IEC">Uncoiler_1</Object>
+    <Object Type="Program" Language="IEC" Description="3/11/19 Punchmaster logic was redundant. Deleted rungs 169-189.">E2Feeder</Object>
+    <Object Type="Program" Language="IEC" Description="This program translates the Coil Line Run, Coil Line Halt And Coil Line Reset Buttons from the touch screen buttons for E2000s.">E2Buttons</Object>
+    <Object Type="Program" Language="IEC" Description="Rungs To Control The Electric Servo Drive Option For The Feed Rolls">EFdrSrvDrv</Object>
+    <Object Type="Program" Language="IEC" Description="Rungs to control an Engel processor with the original two speed hydraulic solenoids.">EFdrHydDrv</Object>
+    <Object Type="Program" Language="IEC" Description="Controls the E2000 Transfer System">E2Transfer</Object>
+    <Object Type="Program" Language="IEC">EMotionControl</Object>
+    <Object Type="Program" Language="IEC">Feeder1</Object>
+    <Object Type="Program" Language="IEC" Description="This file handles some inputs to turn on machinery form Engel lines.">EngelStuff</Object>
+    <Object Type="Program" Language="IEC" Description="Engel Backgauge Wrap Brakes Motion Control Routine">IMotion2</Object>
+    <Object Type="Program" Language="IEC">E_FWB</Object>
+    <Object Type="Program" Language="IEC">PMaster</Object>
+    <Object Type="Program" Language="IEC">CEF</Object>
+    <Object Type="Program" Language="IEC">E2_LOM</Object>
+    <Object Type="Program" Language="IEC" Description="Rungs to control an Engel processor with the original two speed hydraulic solenoids.">EFdrHydDrv2</Object>
+    <Object Type="Program" Language="IEC">EFeeder</Object>
+    <Object Type="Program" Language="IEC">DH800</Object>
+    <Object Type="Program" Language="IEC">ProgramA</Object>
+    <Object Type="Program" Language="IEC">PMstrA</Object>
+    <Object Type="Program" Language="IEC" Description="Rungs to control an Engel processor with the original two speed hydraulic solenoids.">EFdrHydDrv1</Object>
+    <Object Type="Program" Language="IEC">Pivot_2</Object>
+    <Object Type="Program" Language="IEC">CoilSelect</Object>
+    <Object Type="Program" Language="IEC" Description="Map Soft Buttons, etc For Iowa Lines">PDButtons</Object>
+    <Object Type="Program" Language="IEC">Uncoiler_2</Object>
+    <Object Type="Program" Language="IEC" Description="Iowa Electric Servo Wrap Brake Routine ">IMotion1</Object>
+    <Object Type="Program" Language="IEC">MarkHead</Object>
+  </Objects>
+</Package>

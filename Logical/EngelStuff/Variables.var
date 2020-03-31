@@ -1,0 +1,9 @@
+VAR
+	CLPUnlatch : BOOL;
+	DuctoAutoUnlatch : BOOL;
+	CEFUnlatch : BOOL;
+	FullCleatUnlatch : BOOL;
+	LOMUnlatch : BOOL;
+	TDFUnlatch : BOOL;
+	CDAUnlatch : BOOL;
+END_VAR

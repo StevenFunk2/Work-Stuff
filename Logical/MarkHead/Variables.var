@@ -1,0 +1,19 @@
+VAR
+	Dn1Delay : BOOL;
+	Dn1Done : BOOL;
+	Dn1Latch : BOOL;
+	Dn2Latch : BOOL;
+	PassUpPulse : BOOL;
+	TON_0 : TON;
+	TON_10ms_0 : TON_10ms;
+	TON_10ms_1 : TON_10ms;
+	TPulseLength : TIME := T#10s;
+	TP_0 : TP;
+	TP_1 : TP;
+	TP_2 : TP;
+	TP_10ms_0 : TP_10ms;
+	Up1Latch : BOOL;
+	Up2Done : BOOL;
+	Up2Latch : BOOL;
+	Up2PassLatch1 : BOOL;
+END_VAR

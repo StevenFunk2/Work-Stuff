@@ -1,0 +1,14 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=IMotion2 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=150 Type=0 Scope=0 Force=0 Index=10 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                              ActualDAC2                                      INT    3 "                                                               0"    0    3    1   10    0    0         
+                                 TopDAC2                                      INT    0 "                                                            8191"    0    3    1   10    1    0         
+                           AverageSpeed2                                     REAL    0 "                                                         40960.0"    0    8    1   10    1    0         
+                            AMoveLength2                                     DINT    0 "                                                          196843"    0    4    1   10    1    0         
+                          DecelDistance2                                     DINT    0 "                                                           16328"    0    4    1   10    1    0         
+                            ActualSpeed2                                     REAL    0 "                                                         81920.0"    0    8    1   10    1    0         
+                                  MaxDAC                                      INT    0 "                                                           32767"    0    3    1   10    0    0         
+                       ActualRunPercent2                                     REAL    0 "                                                             0.4"    0    8    1   10    1    0         
+                              DecelTime2                                     REAL    0 "                                                             0.4"    0    8    1   10    1    0         
+                             Axis2Scaler                                     REAL    0 "                                                     0.996577561"    0    8    1   10    1    0         
+                           MotionStatus2                                      INT    0 "                                                              -1"    0    3    1   10    0    0         

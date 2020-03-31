@@ -1,0 +1,22 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=PMaster 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=97 Type=35 Scope=41 Force=88 Index=0 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                             PunchSelect                              DINT[0..17]    0 "                                                               *"    0    4   18    0    0    1         
+                          PunchSelect[0]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          PunchSelect[1]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          PunchSelect[2]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          PunchSelect[3]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          PunchSelect[4]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          PunchSelect[5]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          PunchSelect[6]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          PunchSelect[7]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          PunchSelect[8]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                          PunchSelect[9]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                         PunchSelect[10]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                         PunchSelect[11]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                         PunchSelect[12]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                         PunchSelect[13]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                         PunchSelect[14]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                         PunchSelect[15]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                         PunchSelect[16]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         
+                         PunchSelect[17]                                     DINT    0 "                                                               0"    1    4    1   10    0    0         

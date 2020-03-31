@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DKMS>
+  <DKM PATH="DKM/dkm_opcua_partialImage.o" INIT="opcuaInit" SUCCESS="0"/>
+  <DKM PATH="DKM/dkm_dev_gdbserver_partialImage.o" INIT="dkm_dev_gdbserver_Init" SUCCESS="0" SUPPRESS_WARNING="1"/>
+  <DKM PATH="DKM/dkm_scm_partialImage.o" INIT="ScmScRegister" SUCCESS="0"/>
+  <DKM PATH="DKM/dkm_arUTFramework_partialImage.o" INIT="dkm_arUTFrameworkInit" SUCCESS="0" SUPPRESS_WARNING="1"/>
+  <DKM PATH="DKM/dkm_arUT_partialImage.o" INIT="dkm_arUT_Init" SUCCESS="0" SUPPRESS_WARNING="1"/>
+  <DKM PATH="DKM/dkm_gdbserver_x86_partialImage.o" INIT="dkmGdbserverX86Init" SUCCESS="0" SUPPRESS_WARNING="0"/>
+  <DKM PATH="DKM/dkm_rbac_partialImage.o" INIT="dkm_rbac_Init" SUCCESS="0" SUPPRESS_WARNING="0"/> 
+</DKMS>

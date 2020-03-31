@@ -1,0 +1,13 @@
+EFdrHydDr1	"$(AS_CPU_PATH)/EFdrHydDr1/a.out" -o "$(AS_CPU_PATH)/EFdrHydDr1/EFdrHydDr1.ox" -T SG4 -r Cyclic1   -G V4.1.2 
+IMotion2	"$(AS_CPU_PATH)/IMotion2/a.out" -o "$(AS_CPU_PATH)/IMotion2/IMotion2.ox" -T SG4 -r Cyclic1   -G V4.1.2 
+CEF	"$(AS_CPU_PATH)/CEF/a.out" -o "$(AS_CPU_PATH)/CEF/CEF.ox" -T SG4 -r Cyclic1   -G V4.1.2 
+SysCheck	"$(AS_CPU_PATH)/SysCheck/a.out" -o "$(AS_CPU_PATH)/SysCheck/SysCheck.ox" -T SG4 -r Cyclic2   -G V4.1.2 
+E2Buttons	"$(AS_CPU_PATH)/E2Buttons/a.out" -o "$(AS_CPU_PATH)/E2Buttons/E2Buttons.ox" -T SG4 -r Cyclic2   -G V4.1.2 
+E2Feeder	"$(AS_CPU_PATH)/E2Feeder/a.out" -o "$(AS_CPU_PATH)/E2Feeder/E2Feeder.ox" -T SG4 -r Cyclic2   -G V4.1.2 
+EngelStuff	"$(AS_CPU_PATH)/EngelStuff/a.out" -o "$(AS_CPU_PATH)/EngelStuff/EngelStuff.ox" -T SG4 -r Cyclic2   -G V4.1.2 
+PMaster	"$(AS_CPU_PATH)/PMaster/a.out" -o "$(AS_CPU_PATH)/PMaster/PMaster.ox" -T SG4 -r Cyclic2   -G V4.1.2 
+E2Transfer	"$(AS_CPU_PATH)/E2Transfer/a.out" -o "$(AS_CPU_PATH)/E2Transfer/E2Transfer.ox" -T SG4 -r Cyclic2   -G V4.1.2 
+E2_LOM	"$(AS_CPU_PATH)/E2_LOM/a.out" -o "$(AS_CPU_PATH)/E2_LOM/E2_LOM.ox" -T SG4 -r Cyclic2   -G V4.1.2 
+Pinspotter	"$(AS_CPU_PATH)/Pinspotter/a.out" -o "$(AS_CPU_PATH)/Pinspotter/Pinspotter.ox" -T SG4 -r Cyclic2   -G V4.1.2 
+E_FWB	"$(AS_CPU_PATH)/E_FWB/a.out" -o "$(AS_CPU_PATH)/E_FWB/E_FWB.ox" -T SG4 -r Cyclic2   -G V4.1.2 
+Server	"$(AS_CPU_PATH)/Server/a.out" -o "$(AS_CPU_PATH)/Server/Server.ox" -T SG4 -r Cyclic4   -G V4.1.2 

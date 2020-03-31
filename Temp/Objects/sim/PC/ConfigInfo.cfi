@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.2.5.388"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="Server"
+      Disable="false"
+      Source="LibAsTCP1_ST.Server"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Server\Server.st.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Server\Server.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Server\Server.var" />
+    </Task>
+    <Task
+      Name="MotionCont"
+      Disable="false"
+      Source="MotionControl1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\MotionCont\Cyclic.st.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\MotionCont\Init.st.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\MotionCont\Exit.st.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MotionControl1\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MotionControl1\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2">
+    <Task
+      Name="Feeder"
+      Disable="false"
+      Source="Feeder"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Feeder\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Feeder\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Feeder\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Feeder\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Feeder\Variables.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Feeder\Action.st.var" />
+    </Task>
+    <Task
+      Name="MarkTable"
+      Disable="false"
+      Source="MarkTable"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\MarkTable\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\MarkTable\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\MarkTable\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkTable\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkTable\Variables.var" />
+    </Task>
+    <Task
+      Name="MarkRF"
+      Disable="false"
+      Source="MarkRF"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\MarkRF\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\MarkRF\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\MarkRF\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkRF\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\MarkRF\Variables.var" />
+    </Task>
+    <Task
+      Name="TDCTable"
+      Disable="false"
+      Source="TDCTable"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\TDCTable\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\TDCTable\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\TDCTable\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCTable\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCTable\Variables.var" />
+    </Task>
+    <Task
+      Name="TDCRFPshrs"
+      Disable="false"
+      Source="TDCRFPshrs"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\TDCRFPshrs\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\TDCRFPshrs\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\TDCRFPshrs\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCRFPshrs\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\TDCRFPshrs\Variables.var" />
+    </Task>
+    <Task
+      Name="Insulmatic"
+      Disable="false"
+      Source="Insulmatic"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Insulmatic\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Insulmatic\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Insulmatic\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Insulmatic\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Insulmatic\Variables.var" />
+    </Task>
+    <Task
+      Name="GlueApp"
+      Disable="false"
+      Source="GlueApp"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\GlueApp\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\GlueApp\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\GlueApp\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\GlueApp\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\GlueApp\Variables.var" />
+    </Task>
+    <Task
+      Name="Pinspotter"
+      Disable="false"
+      Source="Pinspotter"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Pinspotter\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Pinspotter\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Pinspotter\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Pinspotter\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\Pinspotter\Variables.var" />
+    </Task>
+    <Task
+      Name="BrakeCommo"
+      Disable="false"
+      Source="BrakeCommon"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\BrakeCommo\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\BrakeCommo\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\BrakeCommo\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\BrakeCommon\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\BrakeCommon\Variables.var" />
+    </Task>
+    <Task
+      Name="HWBwPLC"
+      Disable="false"
+      Source="HWBwPLC"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HWBwPLC\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HWBwPLC\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HWBwPLC\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwPLC\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwPLC\Variables.var" />
+    </Task>
+    <Task
+      Name="HWBwoPLC"
+      Disable="false"
+      Source="HWBwoPLC"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HWBwoPLC\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HWBwoPLC\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HWBwoPLC\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwoPLC\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HWBwoPLC\Variables.var" />
+    </Task>
+    <Task
+      Name="HydraulicB"
+      Disable="false"
+      Source="HydraulicBrakeCarriage"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HydraulicB\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HydraulicB\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HydraulicB\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HydraulicBrakeCarriage\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HydraulicBrakeCarriage\Variables.var" />
+    </Task>
+    <Task
+      Name="CleatRoll"
+      Disable="false"
+      Source="CleatRoll"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\CleatRoll\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\CleatRoll\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\CleatRoll\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\CleatRoll\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\CleatRoll\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="HMIButtons"
+      Disable="false"
+      Source="HMIButtons"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HMIButtons\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HMIButtons\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\HMIButtons\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HMIButtons\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\HMIButtons\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5">
+    <Task
+      Name="LampTest"
+      Disable="false"
+      Source="LampTest"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\LampTest\Cyclic.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\LampTest\Init.ld.var" />
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\LampTest\Exit.ld.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LampTest\Types.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LampTest\Variables.var" />
+    </Task>
+    <Task
+      Name="Client"
+      Disable="false"
+      Source="LibAsTCP1_ST.Client"
+      Language="IEC">
+      <InternalFile
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Temp\Objects\sim\PC\Client\Client.st.var" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Client\Client.typ" />
+      <File
+        Path="C:\code\BandR Projects\X20_CPU\X20_CPU\Logical\LibAsTCP1_ST\Client\Client.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

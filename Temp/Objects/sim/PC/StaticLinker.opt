@@ -1,0 +1,2 @@
+MestekLib	"$(AS_CPU_PATH)/MestekLib/myAdd.st.o"  -o "$(AS_STATIC_ARCHIVES_PATH)/libMestekLib_s.a"  -G V4.1.2  -T SG4  -M IA32 
+Library	 -o "$(AS_STATIC_ARCHIVES_PATH)/libLibrary_s.a"  -G V4.1.2  -T SG4  -M IA32 

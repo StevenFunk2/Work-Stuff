@@ -1,0 +1,22 @@
+VAR
+	EjectTimerDone : BOOL;
+	PositionGreaterThan12 : BOOL;
+	PPDTimerDone : BOOL;
+	SquareTimerDone : BOOL;
+	StartBeltTimerDone : BOOL;
+	TON_0 : TON;
+	TON_1 : TON;
+	TON_2 : TON;
+	TON_3 : TON;
+	TrailDelay1Done : BOOL;
+	TON_4 : TON;
+	LBPartSquared : BOOL;
+	TON_5 : TON;
+	LBBeamDownDone : BOOL;
+	TON_6 : TON;
+	EjectDwellDone : BOOL;
+	LBWN12 : BOOL;
+	MoveStarted : BOOL;
+	TON_7 : TON;
+	ReturnMoveStart : BOOL;
+END_VAR
